@@ -1,0 +1,605 @@
+[
+    {
+        "country": "Albania",
+        "flag": "🇦🇱",
+        "title": "Kriminell",
+        "author": "Donna Dafi",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=gB8YspgzzZM",
+            "spotify": "https://open.spotify.com/intl-es/track/3quAW7jGXCHj5LPdgje5EP"
+        },
+        "colors": [
+            "#AA0000",
+            "#000000"
+        ]
+    },
+    {
+        "country": "Alemania",
+        "flag": "🇩🇪",
+        "title": "Meinen die uns",
+        "author": "Zartmann ft. Kasi ft. Aaron ft. Antonius",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=s2bgU8R8SCU",
+            "spotify": "https://open.spotify.com/intl-es/track/2Zrv4bCzz8Ix9mGWse1Exc"
+        },
+        "colors": [
+            "#000000",
+            "#AA0000",
+            "#FFFF00"
+        ]
+    },
+    {
+        "country": "Angola",
+        "flag": "🇦🇴",
+        "title": "Diana",
+        "author": "3 Finer",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=_jwoBmOsCgQ",
+            "spotify": "https://open.spotify.com/intl-es/track/4s3YuUXBi37Mt4AdTjoNG0"
+        },
+        "colors": [
+            "#000000",
+            "#AA0000",
+            "#FFFF00"
+        ]
+    },
+    {
+        "country": "Antigua y Barbuda",
+        "flag": "🇦🇬",
+        "title": "Work It",
+        "author": "Tian Winter",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=zHrScYoIWh8",
+            "spotify": "https://open.spotify.com/intl-es/track/3LbBGYaz7qoifZD4Fiz0Sv"
+        },
+        "colors": [
+            "#CCCC00",
+            "#0000AA",
+            "#FFFFFF",
+            "#000000",
+            "#CC0000"
+        ]
+    },
+    {
+        "country": "Arabia Saudí",
+        "flag": "🇸🇦",
+        "title": "Mojeaah Galbah",
+        "author": "Majid al Mohandis ft. Ahmed al Hermi",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=NxL0l87aAPI",
+            "spotify": "https://open.spotify.com/intl-es/track/1zcy1cxnIeG1A1hvOfS8HH"
+        },
+        "colors": [
+            "#00CC00",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "country": "Argelia",
+        "flag": "🇩🇿",
+        "title": "Mademoiselle",
+        "author": "Amoune Talens",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=h-vQYZP-Uwg",
+            "spotify": "https://open.spotify.com/intl-es/track/32C8CgqPSjt92WU8ngGDMX"
+        },
+        "colors": [
+            "#00CC00",
+            "#FFFFFF",
+            "#AA0000"
+        ]
+    },
+    {
+        "country": "Argentina",
+        "flag": "🇦🇷",
+        "title": "Es Ahora",
+        "author": "Abel Pintos ft. Luciano Pereyra",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=aXW59LNAQmg",
+            "spotify": "https://open.spotify.com/intl-es/track/1MWDhdadRnIK7APAKV0PfG"
+        },
+        "colors": [
+            "#FFFFFF",
+            "#75AADB",
+            "#FCBF49"
+        ]
+    },
+    {
+        "country": "Armenia",
+        "flag": "🇦🇲",
+        "title": "Bamboleo",
+        "author": "J. Esho ft. Super Sako ft. Ashur Bandoleros",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=JChEO5W08oc",
+            "spotify": "https://open.spotify.com/intl-es/track/0KHBlnuxgaMYzaHSIcwAP4"
+        },
+        "colors": [
+            "#D90012",
+            "#0033A0",
+            "#F2A800"
+        ]
+    },
+    {
+        "country": "Australia",
+        "flag": "🇦🇺",
+        "title": "Down to the sea",
+        "author": "Angus & Julia Stone",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=iybZTElHqIM",
+            "spotify": "https://open.spotify.com/intl-es/track/5gHvAYdWoBzinGKphyffR8"
+        },
+        "colors": [
+            "#00008B",
+            "#FF0000",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "country": "Austria",
+        "flag": "🇦🇹",
+        "title": "Taunzn",
+        "author": "Julian Grabmayer",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=_0lOE43w-zE",
+            "spotify": "https://open.spotify.com/intl-es/track/0w8ft8XMLb9QWlPgmxT7P7"
+        },
+        "colors": [
+            "#FF0000",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "country": "Azerbaiyan",
+        "flag": "🇦🇿",
+        "title": "Yansin Yansin",
+        "author": "Vefa Serifova",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=-L0UTB80c2M",
+            "spotify": "https://open.spotify.com/intl-es/track/5tEnwcoSlSHeSerQprPMv3"
+        },
+        "colors": [
+            "#00B5E2",
+            "#EF3340",
+            "#509E2F"
+        ]
+    },
+    {
+        "country": "Bangladesh",
+        "flag": "🇧🇩",
+        "title": "Hridoy Jure Tumi Thako",
+        "author": "Mahtim Shakib ft. Kona",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=zkqSVkpZxno",
+            "spotify": "https://open.spotify.com/intl-es/track/5649jva0Xk1nPWDRzDlROg"
+        },
+        "colors": [
+            "#00AA00",
+            "#AA0000"
+        ]
+    },
+    {
+        "country": "Barbados",
+        "flag": "🇧🇧",
+        "title": "Fully Toxic",
+        "author": "Leadpipe ft. Jus-Jay King",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=YVeXrcj3VyM",
+            "spotify": "https://open.spotify.com/intl-es/track/4j8spxCKu7eYLOMuqJ7ED0"
+        },
+        "colors": [
+            "#0000FF",
+            "#AAAA00",
+            "#000000"
+        ]
+    },
+    {
+        "country": "Bélgica",
+        "flag": "🇧🇪",
+        "title": "Angel Face",
+        "author": "Oscar and the Wolf",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=CbG0G70EK9A",
+            "spotify": "https://open.spotify.com/intl-es/track/005k50cKNdWjOitdP6Y6jz"
+        },
+        "colors": [
+            "#000000",
+            "#FFFF00",
+            "#FF0000"
+        ]
+    },
+    {
+        "country": "Benin",
+        "flag": "🇧🇯",
+        "title": "Rosalinda",
+        "author": "Tyaf ft. Axel Merryl",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=65JIJc4J9-4",
+            "spotify": "https://open.spotify.com/intl-es/track/5wYxB1nQBr3GHwzxUzIsNd"
+        },
+        "colors": [
+            "#008800",
+            "#AAAA00",
+            "#FF0000"
+        ]
+    },
+    {
+        "country": "Bolivia",
+        "flag": "🇧🇴",
+        "title": "Quiero Beber",
+        "author": "Tupay",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=8y6Fq_lh29c",
+            "spotify": "https://open.spotify.com/intl-es/track/0oqOcsiMOWmCHPkajf4PwB"
+        },
+        "colors": [
+            "#FF0000",
+            "#AAAA00",
+            "#008800"
+        ]
+    },
+    {
+        "country": "Bosnia",
+        "flag": "🇧🇦",
+        "title": "Japan",
+        "author": "Jala Brat ft. Buba Corelli",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=TMs4maVTx4Y",
+            "spotify": "https://open.spotify.com/intl-es/track/68PigPx1KR4uxPsf7t3iLj"
+        },
+        "colors": [
+            "#0000FF",
+            "#AAAA00",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "country": "Botswana",
+        "flag": "🇧🇼",
+        "title": "Today",
+        "author": "William Last KRM ft. Lindough",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=sTJLZj3oXNE",
+            "spotify": "https://open.spotify.com/intl-es/track/2x1D3vXKDqpuyWZxmjrGAr"
+        },
+        "colors": [
+            "#75AADB",
+            "#000000",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "country": "Brasil",
+        "flag": "🇧🇷",
+        "title": "Minha Vida é Essa",
+        "author": "MC Pretchako",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=E2xOBkvKia0",
+            "spotify": "https://open.spotify.com/intl-es/track/2cTpNGFRnQH84bVF4WyTlM"
+        },
+        "colors": [
+            "#00AA00",
+            "#AAAA00",
+            "#0000AA",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "country": "Brunei",
+        "flag": "🇧🇳",
+        "title": "Ketipak Ketipung Raya",
+        "author": "Aisha Retno ft. Aziz Harun",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=UnBr1vwjacU",
+            "spotify": "https://open.spotify.com/intl-es/track/7eaCFseO4fOljCMxLTM5ta"
+        },
+        "colors": [
+            "#FFFF00",
+            "#FFFFFF",
+            "#000000",
+            "#FF0000"
+        ]
+    },
+    {
+        "country": "Bulgaria",
+        "flag": "🇧🇬",
+        "title": "Delta Force",
+        "author": "Galena ft. Tzanca Uraganu",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=JwVqgS9QXYg",
+            "spotify": "https://open.spotify.com/intl-es/track/3D4O7Jetr7t07qOo6i6Pds"
+        },
+        "colors": [
+            "#FFFFFF",
+            "#00966E",
+            "#CC0000"
+        ]
+    },
+    {
+        "country": "Burkina Faso",
+        "flag": "🇧🇫",
+        "title": "Burkina Faso",
+        "author": "Floby",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=ceXa6yupepQ",
+            "spotify": "https://open.spotify.com/intl-es/track/2fjKrqlMzEOvxIGaiAgWsy"
+        },
+        "colors": [
+            "#EF2B2D",
+            "#009E49",
+            "#FCD116"
+        ]
+    },
+    {
+        "country": "Burundi",
+        "flag": "🇧🇮",
+        "title": "Champe",
+        "author": "Zeman",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=iZmaVjEIzyc",
+            "spotify": "https://open.spotify.com/intl-es/track/2buEOP57ZBAkifznEtaJbz"
+        },
+        "colors": [
+            "#FFFFFF",
+            "#C8102E",
+            "#43B02A"
+        ]
+    },
+    {
+        "country": "Bhutan",
+        "flag": "🇧🇹",
+        "title": "Hing Lay Ra",
+        "author": "Rebellions Bhutan ft. T Rap ft. Alien",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=I5r7i0LOojY",
+            "spotify": "https://open.spotify.com/intl-es/track/5F7wA1Ax31Abfg6VzuICGp"
+        },
+        "colors": [
+            "#FFCC33",
+            "#FF4E12",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "country": "Cabo Verde",
+        "flag": "🇨🇻",
+        "title": "Povo",
+        "author": "Supa Squad ft. Soraia Ramos",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=mszfbg9yseE",
+            "spotify": "https://open.spotify.com/intl-es/track/3W7cu7ORKiHF6A2BvQLam3"
+        },
+        "colors": [
+            "#003893",
+            "#FFFFFF",
+            "#CF2027",
+            "#F7D116"
+        ]
+    },
+    {
+        "country": "Camboya",
+        "flag": "🇰🇭",
+        "title": "Anxiety",
+        "author": "Zeng Austin ft. Tee Yaa ft. Sera Daro",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=urrQ_7_7nqg",
+            "spotify": "https://open.spotify.com/intl-es/track/1RvgWwslUJGcYeuWEwHVeV"
+        },
+        "colors": [
+            "#0000AA",
+            "#AA0000",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "country": "Camerún",
+        "flag": "🇨🇲",
+        "title": "Po Kui Ka",
+        "author": "Junior Pryze ft. André Marie Tala",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=1iI5yyOgTyQ",
+            "spotify": "https://open.spotify.com/intl-es/track/6X0XKolLOhZVGW1QxpdrJs"
+        },
+        "colors": [
+            "#007A5E",
+            "#CE1126",
+            "#FCD116"
+        ]
+    },
+    {
+        "country": "Canadá",
+        "flag": "🇨🇦",
+        "title": "Nights without you",
+        "author": "Kallitechnis",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=g41sRoIvKsM",
+            "spotify": "https://open.spotify.com/intl-es/track/1cEt75NXTPx7vzka7lKG38"
+        },
+        "colors": [
+            "#FF0000",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "country": "Chile",
+        "flag": "🇨🇦",
+        "title": "L0JI",
+        "author": "Paloma Mami",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=u2BobQhxTjw",
+            "spotify": "https://open.spotify.com/intl-es/track/71ZRd9N8f5p1Z4u1vXwdxI"
+        },
+        "colors": [
+            "#FF0000",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "country": "China",
+        "flag": "🇨🇳",
+        "title": "Background Noise",
+        "author": "MC Cheung Tinfu",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=fisaIfuxues",
+            "spotify": "https://open.spotify.com/intl-es/track/4sguC2oBIqfn8WmMmReOYb"
+        },
+        "colors": [
+            "#FF0000",
+            "#FFFF00"
+        ]
+    },
+    {
+        "country": "Chipre",
+        "flag": "🇨🇾",
+        "title": "Maistros",
+        "author": "Demetris Mesimeris",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=zgDQ3PG2fVI",
+            "spotify": "https://open.spotify.com/intl-es/track/202dBmWp6DYTKYcQlJSx7x"
+        },
+        "colors": [
+            "#D57800",
+            "#4E5B31",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "country": "Colombia",
+        "flag": "🇨🇴",
+        "title": "Chismofilia",
+        "author": "Luis Alfonso",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=PKEl-re_7tQ",
+            "spotify": "https://open.spotify.com/intl-es/track/0323rphB8wdBL4riIlKt0G"
+        },
+        "colors": [
+            "#FFCD00",
+            "#003087",
+            "#C8102E"
+        ]
+    },
+    {
+        "country": "Comoras",
+        "flag": "🇰🇲",
+        "title": "Tsi Dengue",
+        "author": "Pedro Karim",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=TGkW6EQUnjY",
+            "spotify": "https://open.spotify.com/intl-es/track/5AgatXYeeVJ1EjPEjyNUTi"
+        },
+        "colors": [
+            "#009639",
+            "#FFD100",
+            "#FFFFFF",
+            "#EF3340",
+            "#003DA5"
+        ]
+    },
+    {
+        "country": "Congo",
+        "flag": "🇨🇬",
+        "title": "Alleluia",
+        "author": "B-One Shakazulu ft. Tidiane Mario",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=NoB8iGmSjLI",
+            "spotify": "https://open.spotify.com/intl-es/track/5nS7nl7qMsGkMFhK7KaRJc"
+        },
+        "colors": [
+            "#009543",
+            "#FBDE4A",
+            "#DC241F"
+        ]
+    },
+    {
+        "country": "Corea del Sur",
+        "flag": "🇰🇷",
+        "title": "Sticky",
+        "author": "Kiss of Life",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=IajeQM00yfE",
+            "spotify": "https://open.spotify.com/intl-es/track/4e1aewX6ATPcdfQIqr7gqO"
+        },
+        "colors": [
+            "#FFFFFF",
+            "#CD2E3A",
+            "#0047A0",
+            "#000000"
+        ]
+    },
+    {
+        "country": "Costa de Marfil",
+        "flag": "🇨🇮",
+        "title": "Fimbu",
+        "author": "Team Paiya",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=GRahVs8YFUA",
+            "spotify": "https://open.spotify.com/intl-es/track/12rxH5rW5Do2hFcxSDpgyV"
+        },
+        "colors": [
+            "#FF8200",
+            "#FFFFFF",
+            "#009A44"
+        ]
+    },
+    {
+        "country": "Costa Rica",
+        "flag": "🇨🇷",
+        "title": "Millonario",
+        "author": "Joe Mora",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=9muYLeZLFig",
+            "spotify": ""
+        },
+        "colors": [
+            "#001489",
+            "#DA291C",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "country": "Croacia",
+        "flag": "🇭🇷",
+        "title": "Od Cega Sam Ja",
+        "author": "Jelena Rozga",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=JYoMVuN29cw",
+            "spotify": "https://open.spotify.com/intl-es/track/0niBM540wWuniUo8R74J1B"
+        },
+        "colors": [
+            "#FF0000",
+            "#FFFFFF",
+            "#0093DD",
+            "#171796",
+            "#F7DB17",
+            "#000000"
+        ]
+    },
+    {
+        "country": "Cuba",
+        "flag": "🇨🇺",
+        "title": "Un Mensaje",
+        "author": "Un Titico ft. Yomil ft. Lex White",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=sZpIqkIKSFw",
+            "spotify": "https://open.spotify.com/intl-es/track/2reImdyUsNwvKaFiFedD8o"
+        },
+        "colors": [
+            "#002590",
+            "#CC0D0D",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "country": "Dinamarca",
+        "flag": "🇩🇰",
+        "title": "Benny",
+        "author": "Andreas Odbjerg",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=LoEd9HpJvrM",
+            "spotify": "https://open.spotify.com/intl-es/track/0OA5FSqjpBLstcdYg8PujX"
+        },
+        "colors": [
+            "#FF0000",
+            "#FFFFFF"
+        ]
+    }
+]

@@ -19,3 +19,39 @@ body {
     padding: 1em;
     gap: 0.5em;
 }
+
+.country-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.country {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    background-color: white;
+    gap: 0.5em;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.input-container > input {
+    padding: 0.25em;
+    flex-grow: 1;
+}
+
+.bi-youtube {
+    font-size: 1.25em;
+    color: #c4302b;
+}
+
+.bi-spotify {
+    font-size: 1.25em;
+    color: #18b71a;
+}

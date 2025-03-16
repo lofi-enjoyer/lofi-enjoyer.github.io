@@ -5,60 +5,164 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Creator</title>
     <link rel="stylesheet" href="creator.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
-    <div>
-        <label for="country">País</label>
-        <input type="text" id="country">
-    </div>
-    <div>
-        <label for="title">Nombre</label>
-        <input type="text" id="title">
-    </div>
-    <div>
-        <label for="author">Autor/a/es/as</label>
-        <input type="text" id="author">
-    </div>
-    <div>
-        <label for="url">Enlace</label>
-        <input type="text" id="url">
-    </div>
-
-    <button onclick="save()">Añadir</button>
 
     <input type="file" id="upload" hidden>
-    <button onclick="loadFile()">Cargar archivo</button>
-    <button onclick="downloadFile()">Descargar archivo</button>
+    <button onclick="loadFile()">Cargar datos</button>
+    <button onclick="save()">Guardar</button>
+    <button onclick="downloadFile()">Descargar</button>
+    
+    <div>
+        <label for="year">Año</label>
+        <input type="number" id="year" step="1" value="2025">
+    </div>
+
+    <div id="country-container" class="country-container">
+
+    </div>
 
     <script>
-        const countryElement = document.querySelector("#country");
-        const titleElement = document.querySelector("#title");
-        const authorElement = document.querySelector("#author");
-        const urlElement = document.querySelector("#url");
+        const countryContainer = document.querySelector("#country-container");
         const uploadElement = document.querySelector("#upload");
-
-        let data;
         //fetch("countries.json").then(response => response.json()).then(json => data = json);
+
+        let countriesMap = new Map();
         
-        function save() {
-            data.push({
-                "country": countryElement.value.trim(),
-                "title": titleElement.value.trim(),
-                "author": authorElement.value.trim(),
-                "url": urlElement.value.trim(),
+        function load() {
+            fetch("countries.json")
+            .then(response => response.json())
+            .then(json => {
+                json.forEach(element => {
+                    countriesMap.set(element.name, element);
+                    const countryElement = document.createElement("div");
+                    countryElement.id = element.name;
+                    countryElement.classList.add("country");
+                    const countryNameElement = document.createElement("h2");
+                    countryNameElement.textContent = `${element.flag} ${element.name}`;
+
+                    const titleContainer = document.createElement("div");
+                    titleContainer.classList.add("input-container");
+                    const titleLabel = document.createElement("label");
+                    titleLabel.textContent = "Nombre";
+                    titleLabel.setAttribute("for", `${element.name.replaceAll(" ", "-")}-title`);
+                    const titleElement = document.createElement("input");
+                    titleElement.id = `${element.name.replaceAll(" ", "-")}-title`;
+                    titleElement.setAttribute("type", "text");
+                    titleContainer.appendChild(titleLabel);
+                    titleContainer.appendChild(titleElement);
+
+                    const artistContainer = document.createElement("div");
+                    artistContainer.classList.add("input-container");
+                    const artistLabel = document.createElement("label");
+                    artistLabel.textContent = "Artista";
+                    artistLabel.setAttribute("for", `${element.name.replaceAll(" ", "-")}-artist`);
+                    const artistElement = document.createElement("input");
+                    artistElement.id = `${element.name.replaceAll(" ", "-")}-artist`;
+                    artistElement.setAttribute("type", "text");
+                    artistContainer.appendChild(artistLabel);
+                    artistContainer.appendChild(artistElement);
+
+                    const youtubeContainer = document.createElement("div");
+                    youtubeContainer.classList.add("input-container");
+                    const youtubeLabel = document.createElement("label");
+                    const youtubeIcon = document.createElement("i");
+                    youtubeIcon.classList.add("bi-youtube");
+                    youtubeLabel.appendChild(youtubeIcon);
+                    youtubeLabel.setAttribute("for", `${element.name.replaceAll(" ", "-")}-youtube`);
+                    const youtubeElement = document.createElement("input");
+                    youtubeElement.id = `${element.name.replaceAll(" ", "-")}-youtube`;
+                    youtubeElement.setAttribute("type", "text");
+                    youtubeContainer.appendChild(youtubeLabel);
+                    youtubeContainer.appendChild(youtubeElement);
+
+                    const spotifyContainer = document.createElement("div");
+                    spotifyContainer.classList.add("input-container");
+                    const spotifyLabel = document.createElement("label");
+                    const spotifyIcon = document.createElement("i");
+                    spotifyIcon.classList.add("bi-spotify");
+                    spotifyLabel.appendChild(spotifyIcon);
+                    spotifyLabel.setAttribute("for", `${element.name.replaceAll(" ", "-")}-spotify`);
+                    const spotifyElement = document.createElement("input");
+                    spotifyElement.id = `${element.name.replaceAll(" ", "-")}-spotify`;
+                    spotifyElement.setAttribute("type", "text");
+                    spotifyContainer.appendChild(spotifyLabel);
+                    spotifyContainer.appendChild(spotifyElement);
+
+                    countryElement.appendChild(countryNameElement);
+                    countryElement.appendChild(titleContainer);
+                    countryElement.appendChild(artistContainer);
+                    countryElement.appendChild(youtubeContainer);
+                    countryElement.appendChild(spotifyContainer);
+                    countryContainer.appendChild(countryElement);
+                });
+            })
+            .then(() => {
+                if (window.localStorage.getItem("data")) {
+                    JSON.parse(window.localStorage.getItem("data")).forEach(element => {
+                    document.querySelector(`#${element.country.replaceAll(" ", "-")}-title`).value = element.title;
+                        document.querySelector(`#${element.country.replaceAll(" ", "-")}-artist`).value = element.author;
+                        document.querySelector(`#${element.country.replaceAll(" ", "-")}-youtube`).value = element.links.youtube;
+                        document.querySelector(`#${element.country.replaceAll(" ", "-")}-spotify`).value = element.links.spotify;
+                  });
+                }
+            })
+        }
+
+        function getData() {
+            const fileData = [];
+            [...document.querySelectorAll(".country")].forEach(countryElement => {
+                const countryNameWithFlag = countryElement.querySelector("h2").textContent;
+                const countryName = countryNameWithFlag.substring(countryNameWithFlag.indexOf(" ") + 1);
+                const countryId = countryName.replaceAll(" ", "-");
+
+                const songName = countryElement.querySelector(`#${countryId}-title`).value;
+                const songArtist = countryElement.querySelector(`#${countryId}-artist`).value;
+                const songYoutube = countryElement.querySelector(`#${countryId}-youtube`).value;
+                const songSpotify = countryElement.querySelector(`#${countryId}-spotify`).value;
+
+                if (!songName) {
+                    return;
+                }
+
+                fileData.push({
+                    "country": countryName,
+                    "flag": countriesMap.get(countryName).flag,
+                    "title": songName,
+                    "author": songArtist,
+                    "links": {
+                        "youtube": songYoutube,
+                        "spotify": songSpotify
+                    },
+                    "colors": countriesMap.get(countryName).colors
+                });
             });
-            console.log(data);
+
+            return fileData;
         }
 
         function loadFile() {
             uploadElement.click();
         }
 
+        function save() {
+            window.localStorage.setItem("data", JSON.stringify(getData()));
+        }
+
         uploadElement.addEventListener("change", () => {
             const files = uploadElement.files;
             const reader = new FileReader();
             reader.onload = () => {
-                  data = JSON.parse(reader.result);
+                const jsonResult = JSON.parse(reader.result);
+                  jsonResult.forEach(element => {
+                    document.querySelector(`#${element.country.replaceAll(" ", "-")}-title`).value = element.title;
+                        document.querySelector(`#${element.country.replaceAll(" ", "-")}-artist`).value = element.author;
+                        document.querySelector(`#${element.country.replaceAll(" ", "-")}-youtube`).value = element.links.youtube;
+                        document.querySelector(`#${element.country.replaceAll(" ", "-")}-spotify`).value = element.links.spotify;
+                  });
+
+                  window.localStorage.setItem("data", JSON.stringify(jsonResult));
             };
             if (files[0]) {
                 reader.readAsText(files[0]);
@@ -67,10 +171,13 @@
 
         function downloadFile() {
             const anchor = document.createElement("a");
-            anchor.href = URL.createObjectURL(new Blob(data, { type: "application/json" }));
+            const data = JSON.stringify(getData());
+            anchor.href = URL.createObjectURL(new Blob([data], { type: "application/json" }));
             anchor.download = "updatedCountries.json";
             anchor.click();
         }
+
+        load();
     </script>
 
 </body>
