@@ -364,10 +364,116 @@
     },
     {
         "name": "Ecuador",
-        "flag": "🇩🇰",
+        "flag": "🇪🇨",
         "colors": [
+            "#FFDD00",
+            "#034EA2",
+            "#ED1C24"
+        ]
+    },
+    {
+        "name": "EEUU",
+        "flag": "🇺🇸",
+        "colors": [
+            "#FFFFFF",
+            "#B22234",
+            "#3C3B6E"
+        ]
+    },
+    {
+        "name": "Egipto",
+        "flag": "🇪🇬",
+        "colors": [
+            "#CE1126",
+            "#FFFFFF",
+            "#000000",
+            "#C09300"
+        ]
+    },
+    {
+        "name": "EAU",
+        "flag": "🇦🇪",
+        "colors": [
+            "#00843D",
+            "#FFFFFF",
+            "#000000",
+            "#C8102E"
+        ]
+    },
+    {
+        "name": "El Salvador",
+        "flag": "🇸🇻",
+        "colors": [
+            "#0047AB",
+            "#FFFFFF",
+            "#FFC000"
+        ]
+    },
+    {
+        "name": "Eritrea",
+        "flag": "🇪🇷",
+        "colors": [
+            "#3C8BDC",
+            "#EB0433",
+            "#FBC724",
+            "#0BAC24"
+        ]
+    },
+    {
+        "name": "Eslovaquia",
+        "flag": "🇸🇰",
+        "colors": [
+            "#FFFFFF",
+            "#254AA5",
+            "#ED1C24"
+        ]
+    },
+    {
+        "name": "Eslovenia",
+        "flag": "🇸🇮",
+        "colors": [
+            "#FFFFFF",
+            "#005CE6",
             "#FF0000",
+            "#FFE600"
+        ]
+    },
+    {
+        "name": "España",
+        "flag": "🇪🇸",
+        "colors": [
+            "#AD1519",
+            "#FABD00"
+        ]
+    },
+    {
+        "name": "Estonia",
+        "flag": "🇪🇪",
+        "colors": [
+            "#0072CE",
+            "#000000",
             "#FFFFFF"
+        ]
+    },
+    {
+        "name": "Etiopía",
+        "flag": "🇪🇹",
+        "colors": [
+            "#00AA00",
+            "#AAAA00",
+            "#FF0000",
+            "#0000FF"
+        ]
+    },
+    {
+        "name": "Eswatini",
+        "flag": "🇸🇿",
+        "colors": [
+            "#7777FF",
+            "#FF0000",
+            "#FFFF00",
+            "#FFFFFF",
+            "#000000"
         ]
     }
 ]
