@@ -11,7 +11,6 @@ html, body {
     height: 100%;
     max-height: 100%;
     background-color: rgb(243, 243, 243);
-    overflow: hidden;
 }
 
 body {
@@ -35,8 +34,8 @@ header {
 }
 
 .header-container > img {
-    width: 4em;
-    height: 4em;
+    width: 3em;
+    height: 3em;
 }
 
 .header-container:hover > img {
