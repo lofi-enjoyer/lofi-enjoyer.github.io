@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creator</title>
+    <link rel="stylesheet" href="creator.css">
+</head>
+<body>
+    <div>
+        <label for="country">País</label>
+        <input type="text" id="country">
+    </div>
+    <div>
+        <label for="title">Nombre</label>
+        <input type="text" id="title">
+    </div>
+    <div>
+        <label for="author">Autor/a/es/as</label>
+        <input type="text" id="author">
+    </div>
+    <div>
+        <label for="url">Enlace</label>
+        <input type="text" id="url">
+    </div>
+
+    <button onclick="save()">Añadir</button>
+
+    <input type="file" id="upload" hidden>
+    <button onclick="loadFile()">Cargar archivo</button>
+    <button onclick="downloadFile()">Descargar archivo</button>
+
+    <script>
+        const countryElement = document.querySelector("#country");
+        const titleElement = document.querySelector("#title");
+        const authorElement = document.querySelector("#author");
+        const urlElement = document.querySelector("#url");
+        const uploadElement = document.querySelector("#upload");
+
+        let data;
+        //fetch("countries.json").then(response => response.json()).then(json => data = json);
+        
+        function save() {
+            data.push({
+                "country": countryElement.value.trim(),
+                "title": titleElement.value.trim(),
+                "author": authorElement.value.trim(),
+                "url": urlElement.value.trim(),
+            });
+            console.log(data);
+        }
+
+        function loadFile() {
+            uploadElement.click();
+        }
+
+        uploadElement.addEventListener("change", () => {
+            const files = uploadElement.files;
+            const reader = new FileReader();
+            reader.onload = () => {
+                  data = JSON.parse(reader.result);
+            };
+            if (files[0]) {
+                reader.readAsText(files[0]);
+            }
+        });
+
+        function downloadFile() {
+            const anchor = document.createElement("a");
+            anchor.href = URL.createObjectURL(new Blob(data, { type: "application/json" }));
+            anchor.download = "updatedCountries.json";
+            anchor.click();
+        }
+    </script>
+
+</body>
+</html>
