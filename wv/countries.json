@@ -476,5 +476,249 @@
             "#FFFFFF",
             "#000000"
         ]
+    },
+    {
+        "name": "Filipinas",
+        "flag": "🇵🇭",
+        "colors": [
+            "#0038A8",
+            "#CE1126",
+            "#FFFFFF",
+            "#FCD116"
+        ]
+    },
+    {
+        "name": "Fiji",
+        "flag": "🇫🇯",
+        "colors": [
+            "#62B5E5",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "name": "Finlandia",
+        "flag": "🇫🇮",
+        "colors": [
+            "#18447E",
+            "#B51C31"
+        ]
+    },
+    {
+        "name": "Francia",
+        "flag": "🇫🇷",
+        "colors": [
+            "#0055A4",
+            "#FFFFFF",
+            "#EF4135"
+        ]
+    },
+    {
+        "name": "Gabón",
+        "flag": "🇬🇦",
+        "colors": [
+            "#00AD60",
+            "#FADF00",
+            "#4760C7"
+        ]
+    },
+    {
+        "name": "Gambia",
+        "flag": "🇬🇲",
+        "colors": [
+            "#DE0000",
+            "#35008E",
+            "#008426",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "name": "Georgia",
+        "flag": "🇬🇪",
+        "colors": [
+            "#FF0000",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "name": "Ghana",
+        "flag": "🇬🇭",
+        "colors": [
+            "#CF0921",
+            "#FCD20F",
+            "#006B3D",
+            "#000000"
+        ]
+    },
+    {
+        "name": "Granada",
+        "flag": "🇬🇩",
+        "colors": [
+            "#DE0000",
+            "#FADF00",
+            "#00845F"
+        ]
+    },
+    {
+        "name": "Grecia",
+        "flag": "🇬🇷",
+        "colors": [
+            "#FFFFFF",
+            "#004C98"
+        ]
+    },
+    {
+        "name": "Groenlandia",
+        "flag": "🇬🇱",
+        "colors": [
+            "#D8001C",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "name": "Guatemala",
+        "flag": "🇬🇹",
+        "colors": [
+            "#4997D0",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "name": "Guinea Bissau",
+        "flag": "🇬🇼",
+        "colors": [
+            "#000000",
+            "#CE1126",
+            "#FCD116",
+            "#009E49"
+        ]
+    },
+    {
+        "name": "Guinea Ecuatorial",
+        "flag": "🇬🇶",
+        "colors": [
+            "#00AC00",
+            "#FFFFFF",
+            "#F50000",
+            "#2F58D1"
+        ]
+    },
+    {
+        "name": "Guyana",
+        "flag": "🇬🇾",
+        "colors": [
+            "#CD001D",
+            "#000000",
+            "#FFCD00",
+            "#FFFFFF",
+            "#009F6B"
+        ]
+    },
+    {
+        "name": "Haití",
+        "flag": "🇭🇹",
+        "colors": [
+            "#00209F",
+            "#D21034",
+            "#FFFFFF",
+            "#F1B517",
+            "#016A16"
+        ]
+    },
+    {
+        "name": "Honduras",
+        "flag": "🇭🇳",
+        "colors": [
+            "#00BCE4",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "name": "Hong Kong",
+        "flag": "🇭🇰",
+        "colors": [
+            "#EE1C25",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "name": "Hungría",
+        "flag": "🇭🇺",
+        "colors": [
+            "#CE2939",
+            "#FFFFFF",
+            "#477050"
+        ]
+    },
+    {
+        "name": "India",
+        "flag": "🇮🇳",
+        "colors": [
+            "#FF671F",
+            "#FFFFFF",
+            "#046A38"
+        ]
+    },
+    {
+        "name": "Indonesia",
+        "flag": "🇮🇩",
+        "colors": [
+            "#FF0000",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "name": "Irak",
+        "flag": "🇮🇶",
+        "colors": [
+            "#CD1125",
+            "#FFFFFF",
+            "#017B3D",
+            "#000000"
+        ]
+    },
+    {
+        "name": "Irán",
+        "flag": "🇮🇷",
+        "colors": [
+            "#239F40",
+            "#FFFFFF",
+            "#DA0000"
+        ]
+    },
+    {
+        "name": "Irlanda",
+        "flag": "🇮🇪",
+        "colors": [
+            "#169B62",
+            "#FFFFFF",
+            "#FF883E"
+        ]
+    },
+    {
+        "name": "Islandia",
+        "flag": "🇮🇸",
+        "colors": [
+            "#02529C",
+            "#FFFFFF",
+            "#DC1E35"
+        ]
+    },
+    {
+        "name": "Italia",
+        "flag": "🇮🇹",
+        "colors": [
+            "#008C45",
+            "#F4F5F0",
+            "#CD212A"
+        ]
+    },
+    {
+        "name": "Jamaica",
+        "flag": "🇯🇲",
+        "colors": [
+            "#008349",
+            "#000000",
+            "#FFC100"
+        ]
     }
 ]
