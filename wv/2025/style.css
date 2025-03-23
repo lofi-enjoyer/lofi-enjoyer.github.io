@@ -97,15 +97,11 @@ main {
     overflow-y: clip;
 }
 
-a {
-    text-decoration: none;
-}
-
 .song-holder {
     position: relative;
     overflow: hidden;
     border-radius: 1em;
-    padding: 0.25em;
+    padding: 3px;
     flex-shrink: 0;
 }
 
@@ -120,12 +116,16 @@ a {
     left: 0;
     right: 0;
     z-index: 0;
+    display: none;
+}
+
+.song-holder:hover > .song-bg, .song-holder:active > .song-bg {
     display: block;
     background-size: 100% 100%;
     background-repeat: repeat;
     background-position: -100% 0%;
     transform: scale(20);
-    animation: song-border 30s infinite linear;
+    animation: song-border 5s infinite linear;
     z-index: 0;
 }
 
@@ -141,37 +141,23 @@ a {
     background-color: white;
 }
 
-.inactive {
-    filter: grayscale(1);
-}
-
-.inactive:hover, .inactive:active {
-    animation: none;
-}
-
-.inactive > .song-bg {
-    display: none;
-}
-
 .song-flag {
     font-size: 4rem;
 }
 
 .song-header {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    gap: 1em;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.25em;
 }
 
 .song-header > h2 {
-    font-size: 2.5rem;
+    font-size: 1.75rem;
 }
 
 .song-header > h3 {
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 .song-header > p {
@@ -235,6 +221,24 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+
+    .song-container {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    
+    .song-flag {
+        display: none;
+    }
+
+    .song-header > p:nth-of-type(1) {
+        display: none;
+    }
+
+    .song-header > p:nth-of-type(2) {
+        display: block;
+    }
 
     .song-links {
         margin-right: 0.5em;

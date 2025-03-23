@@ -1092,5 +1092,187 @@
             "#FFFFFF",
             "#009736"
         ]
+    },
+    {
+        "name": "Panamá",
+        "flag": "🇵🇦",
+        "colors": [
+            "#FF0000",
+            "#0000FF",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "name": "Papúa Nueva Guinea",
+        "flag": "🇵🇬",
+        "colors": [
+            "#FF0000",
+            "#000000",
+            "#FFFFFF",
+            "#FFFF00"
+        ]
+    },
+    {
+        "name": "Paraguay",
+        "flag": "🇵🇾",
+        "colors": [
+            "#D52B1E",
+            "#FFFFFF",
+            "#0038A8"
+        ]
+    },
+    {
+        "name": "Perú",
+        "flag": "🇵🇪",
+        "colors": [
+            "#D91023",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "name": "Polonia",
+        "flag": "🇵🇱",
+        "colors": [
+            "#FF0000",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "name": "Portugal",
+        "flag": "🇵🇹",
+        "colors": [
+            "#FF0000",
+            "#006600",
+            "#FFFF00"
+        ]
+    },
+    {
+        "name": "Puerto Rico",
+        "flag": "🇵🇷",
+        "colors": [
+            "#002590",
+            "#CC0D0D",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "name": "Qatar",
+        "flag": "🇶🇦",
+        "colors": [
+            "#8A1538",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "name": "Reino Unido",
+        "flag": "🇬🇧",
+        "colors": [
+            "#00247D",
+            "#CF142B",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "name": "República Dominicana",
+        "flag": "🇩🇴",
+        "colors": [
+            "#002D62",
+            "#CE1126",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "name": "Sudáfrica",
+        "flag": "🇿🇦",
+        "colors": [
+            "#007A4D",
+            "#000000",
+            "#FFFFFF",
+            "#FFB612",
+            "#DE3831",
+            "#002395"
+        ]
+    },
+    {
+        "name": "RD Congo",
+        "flag": "🇨🇩",
+        "colors": [
+            "#007FFF",
+            "#CE1021",
+            "#F7D618"
+        ]
+    },
+    {
+        "name": "República Checa",
+        "flag": "🇨🇿",
+        "colors": [
+            "#FFFFFF",
+            "#D7141A",
+            "#11457E"
+        ]
+    },
+    {
+        "name": "Rumanía",
+        "flag": "🇷🇴",
+        "colors": [
+            "#012169",
+            "#FFCD00",
+            "#C8102E"
+        ]
+    },
+    {
+        "name": "Rwanda",
+        "flag": "🇷🇼",
+        "colors": [
+            "#009AE3",
+            "#F7E100",
+            "#00693D"
+        ]
+    },
+    {
+        "name": "Salomón",
+        "flag": "🇷🇴",
+        "colors": [
+            "#390BBD",
+            "#FADF00",
+            "#006433"
+        ]
+    },
+    {
+        "name": "Samoa",
+        "flag": "🇼🇸",
+        "colors": [
+            "#2C0081",
+            "#DE0000",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "name": "San Marino",
+        "flag": "🇸🇲",
+        "colors": [
+            "#FFFFFF",
+            "#52B1E7"
+        ]
+    },
+    {
+        "name": "Santa Lucía",
+        "flag": "🇱🇨",
+        "colors": [
+            "#57C7FF",
+            "#FFFFFF",
+            "#000000",
+            "#FADF00"
+        ]
+    },
+    {
+        "name": "Santo Tomé y Príncipe",
+        "flag": "🇸🇹",
+        "colors": [
+            "#FF0030",
+            "#00A838",
+            "#FFDF00",
+            "#000000"
+        ]
     }
 ]
