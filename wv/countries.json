@@ -17,6 +17,16 @@
         ]
     },
     {
+        "name": "Andorra",
+        "flag": "🇦🇩",
+        "colors": [
+            "#10069F",
+            "#FEDD00",
+            "#D50032",
+            "#C6AA76"
+        ]
+    },
+    {
         "name": "Angola",
         "flag": "🇦🇴",
         "colors": [
@@ -1272,6 +1282,300 @@
             "#FF0030",
             "#00A838",
             "#FFDF00",
+            "#000000"
+        ]
+    },
+    {
+        "name": "Senegal",
+        "flag": "🇸🇳",
+        "colors": [
+            "#00A838",
+            "#FF0030",
+            "#FFDF00"
+        ]
+    },
+    {
+        "name": "Serbia",
+        "flag": "🇷🇸",
+        "colors": [
+            "#C7363D",
+            "#0C4077",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "name": "Seychelles",
+        "flag": "🇸🇨",
+        "colors": [
+            "#002F6C",
+            "#FED141",
+            "#D92323",
+            "#FFFFFF",
+            "#007A33"
+        ]
+    },
+    {
+        "name": "Sierra Leona",
+        "flag": "🇸🇱",
+        "colors": [
+            "#00FF00",
+            "#FFFFFF",
+            "#3333AA"
+        ]
+    },
+    {
+        "name": "Singapur",
+        "flag": "🇸🇬",
+        "colors": [
+            "#EE2536",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "name": "Siria",
+        "flag": "🇸🇾",
+        "colors": [
+            "#CE1126",
+            "#FFFFFF",
+            "#997A3D",
+            "#000000"
+        ]
+    },
+    {
+        "name": "Sri Lanka",
+        "flag": "🇱🇰",
+        "colors": [
+            "#F7B718",
+            "#941E32",
+            "#DF7500",
+            "#005F56"
+        ]
+    },
+    {
+        "name": "Sudán",
+        "flag": "🇸🇩",
+        "colors": [
+            "#007229",
+            "#D21034",
+            "#000000",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "name": "Suecia",
+        "flag": "🇸🇪",
+        "colors": [
+            "#005293",
+            "#FECC02"
+        ]
+    },
+    {
+        "name": "Suiza",
+        "flag": "🇨🇭",
+        "colors": [
+            "#FF0000",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "name": "Surinam",
+        "flag": "🇸🇷",
+        "colors": [
+            "#377E3F",
+            "#FFFFFF",
+            "#B40A2D",
+            "#ECC81D"
+        ]
+    },
+    {
+        "name": "Tahití",
+        "flag": "🇵🇫",
+        "colors": [
+            "#FF0000",
+            "#FFFFFF",
+            "#FFFF00"
+        ]
+    },
+    {
+        "name": "Tailandia",
+        "flag": "🇹🇭",
+        "colors": [
+            "#A51931",
+            "#F4F5F8",
+            "#2D2A4A"
+        ]
+    },
+    {
+        "name": "Taiwán",
+        "flag": "🇹🇼",
+        "colors": [
+            "#000095",
+            "#FE0000",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "name": "Tanzania",
+        "flag": "🇹🇿",
+        "colors": [
+            "#00FF00",
+            "#FFFF00",
+            "#000000",
+            "#5555FF"
+        ]
+    },
+    {
+        "name": "Tayikistán",
+        "flag": "🇹🇯",
+        "colors": [
+            "#FFFFFF",
+            "#CD0000",
+            "#F8C400",
+            "#006600"
+        ]
+    },
+    {
+        "name": "Timor Oriental",
+        "flag": "🇹🇱",
+        "colors": [
+            "#000000",
+            "#FFFF00",
+            "#FF0000",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "name": "Togo",
+        "flag": "🇹🇬",
+        "colors": [
+            "#44AA88",
+            "#FFFF00",
+            "#FF0000",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "name": "Tonga",
+        "flag": "🇹🇴",
+        "colors": [
+            "#FF0000",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "name": "Trinidad y Tobago",
+        "flag": "🇹🇹",
+        "colors": [
+            "#FF0000",
+            "#FFFFFF",
+            "#000000"
+        ]
+    },
+    {
+        "name": "Túnez",
+        "flag": "🇹🇳",
+        "colors": [
+            "#E70013",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "name": "Turkmenistán",
+        "flag": "🇹🇲",
+        "colors": [
+            "#00853A",
+            "#D22630",
+            "#FFC72C",
+            "#383739"
+        ]
+    },
+    {
+        "name": "Turquía",
+        "flag": "🇹🇷",
+        "colors": [
+            "#E30A17",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "name": "Ucrania",
+        "flag": "🇺🇦",
+        "colors": [
+            "#0057B7",
+            "#FFD700"
+        ]
+    },
+    {
+        "name": "Uganda",
+        "flag": "🇺🇬",
+        "colors": [
+            "#000000",
+            "#FFFF00",
+            "#FF0000"
+        ]
+    },
+    {
+        "name": "Uruguay",
+        "flag": "🇺🇾",
+        "colors": [
+            "#0000FF",
+            "#FFFFFF"
+        ]
+    },
+    {
+        "name": "Vanuatu",
+        "flag": "🇻🇺",
+        "colors": [
+            "#FF0000",
+            "#000000",
+            "#FFFF00",
+            "#449944"
+        ]
+    },
+    {
+        "name": "Uzbekistán",
+        "flag": "🇺🇿",
+        "colors": [
+            "#7777FF",
+            "#FF0000",
+            "#FFFFFF",
+            "#55AA55"
+        ]
+    },
+    {
+        "name": "Venezuela",
+        "flag": "🇻🇪",
+        "colors": [
+            "#FFFF00",
+            "#0000FF",
+            "#FF0000"
+        ]
+    },
+    {
+        "name": "Vietnam",
+        "flag": "🇻🇳",
+        "colors": [
+            "#FF0000",
+            "#FFFF00"
+        ]
+    },
+    {
+        "name": "Zambia",
+        "flag": "🇿🇲",
+        "colors": [
+            "#009E49",
+            "#EF3340",
+            "#FCAD56",
+            "#000000"
+        ]
+    },
+    {
+        "name": "Zimbabwe",
+        "flag": "🇿🇲",
+        "colors": [
+            "#00FF00",
+            "#FFFF00",
+            "#FF0000",
             "#000000"
         ]
     }
