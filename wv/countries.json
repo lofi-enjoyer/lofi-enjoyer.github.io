@@ -723,6 +723,14 @@
         ]
     },
     {
+        "name": "Israel",
+        "flag": "🇮🇱",
+        "colors": [
+            "#0000FF",
+            "#FFFFFF"
+        ]
+    },
+    {
         "name": "Italia",
         "flag": "🇮🇹",
         "colors": [
@@ -746,6 +754,16 @@
         "colors": [
             "#FFFFFF",
             "#AA0000"
+        ]
+    },
+    {
+        "name": "Jordania",
+        "flag": "🇯🇴",
+        "colors": [
+            "#EE2A35",
+            "#000000",
+            "#FFFFFF",
+            "#009736"
         ]
     },
     {

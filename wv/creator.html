@@ -159,6 +159,9 @@
             const files = uploadElement.files;
             const reader = new FileReader();
             reader.onload = () => {
+                [...document.querySelectorAll(".country input")].forEach(element => {
+                    element.value = "";
+                });
                 const jsonResult = JSON.parse(reader.result);
                   jsonResult.forEach(element => {
                     document.querySelector(`#${element.country.replaceAll(" ", "-")}-title`).value = element.title;
