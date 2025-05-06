@@ -1,0 +1,31 @@
+<div class="loading" id="loading-element" [ngStyle]="{'display': (songs) ? 'none' : 'flex'}">
+  <span class="loading-spinner"></span>
+</div>
+<div class="country-wrapper">
+  <section id="country-container" class="country-container">
+    <div *ngFor="let song of songs" class="song-holder">
+      <div class="song-bg" [ngStyle]="{'background': 'conic-gradient(' + generateGradient(song.colors) + ')'}">
+
+      </div>
+      <div class="song-container">
+        <div class="song-flag">
+          {{ song.flag }}
+        </div>
+        <div class="song-header">
+          <h2>{{ song.title }}</h2>
+          <h3>{{ song.author }}</h3>
+          <p>{{ song.country }}</p>
+          <p>{{ song.flag }} {{ song.country }}</p>
+        </div>
+        <div class="song-links">
+          <a [href]="song.links.spotify" target="_blank" class="spotify-link" [ngClass]="song.links.spotify ? 'active-link' : 'disabled-link' ">
+            <i class="bi-spotify"></i>
+          </a>
+          <a [href]="song.links.youtube" target="_blank" class="youtube-link" [ngClass]="song.links.youtube ? 'active-link' : 'disabled-link' ">
+            <i class="bi-youtube"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
