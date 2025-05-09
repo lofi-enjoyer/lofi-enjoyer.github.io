@@ -1,6 +1,6 @@
 import {AfterViewInit, Component, ElementRef, OnInit, viewChild, ViewChild} from '@angular/core';
 import {NgForOf, NgStyle} from '@angular/common';
-import {Country} from '../types/country';
+import {Country} from '../../../types/country';
 import {HttpClient} from '@angular/common/http';
 
 @Component({

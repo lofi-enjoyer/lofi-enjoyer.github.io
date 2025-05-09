@@ -1,0 +1,34 @@
+[
+  {
+    "text": "¿A qué país representó el artista 'Jorkan', y en qué edición?",
+    "answers": [ "Panamá, 2023", "Honduras, 2023", "Panamá, 2024", "Panamá, 2025" ],
+    "correctAnswers": [ 2 ],
+    "image": "logo.png"
+  },
+  {
+    "text": "¿Qué resultado obtuvo Uzbekistán en la edición 2025?",
+    "answers": [ "1º", "2º", "3º", "4º" ],
+    "correctAnswers": [ 1 ]
+  },
+  {
+    "text": "¿Qué logro ostenta la canción 'Mako Methlha' (Irak 2024)?",
+    "answers": [ "Vídeo con menos reproducciones de su continente", "Nombre de artista con mayor número de caracteres", "Videoclip de mayor duración", "Única candidatura del país que ha pasado de la primera fase" ],
+    "correctAnswers": [ 1 ]
+  },
+  {
+    "text": "¿Cuál de estos artistas no ha participado en varias ediciones?",
+    "answers": [ "Bilal Sonses", "Il'han Ihsanov", "Jus-Jay King", "KBP Alien" ],
+    "correctAnswers": [ 3 ]
+  },
+  {
+    "text": "¿Al videoclip de la canción de qué país corresponde la imagen?",
+    "answers": [ "Gabón", "Camerún", "Ghana", "Costa de Marfil" ],
+    "correctAnswers": [ 0 ],
+    "image": "sans_sentiment.png"
+  },
+  {
+    "text": "¿Cuál de los siguientes artistas ha participado en representación de Uzbekistán?",
+    "answers": [ "Shohruhxon", "Mirbek Atabekov", "Corazón Serrano", "Slatkaristika" ],
+    "correctAnswers": [ 0 ]
+  }
+]

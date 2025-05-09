@@ -1,0 +1,48 @@
+<div class="loading" id="loading-element" [ngStyle]="{'display': (questions.length != 0) ? 'none' : 'flex'}">
+  <span class="loading-spinner"></span>
+</div>
+<div *ngIf="currentQuestionIndex < questions.length && currentQuestionIndex != -1" class="quiz-container">
+  <div>
+    <h2>{{ currentQuestionIndex + 1 }}. {{ currentQuestion.text }}</h2>
+    <small *ngIf="currentQuestion.correctAnswers.length > 1" style="color: #606060;">Respuesta múltiple</small>
+  </div>
+  <img class="quiz-image" [src]="'/quiz/' + currentQuestion.image" *ngIf="currentQuestion.image">
+  <div style="display: flex; flex-direction: column; align-items: center; width: 100%; gap: 0.5em">
+    <div style="display: flex; align-items: center; justify-content: space-evenly; width: 80%; flex-wrap: wrap; gap: 0.25em;">
+      <div *ngFor="let result of questionResults" class="question-mark" [class]="(result == undefined) ? 'unanswered' : (result.correct) ? 'correct-marker': 'incorrect-marker'">
+
+      </div>
+    </div>
+  </div>
+  <div class="answer-container">
+    <button *ngFor="let answer of currentQuestion?.answers, index as i" (click)="answerCurrentQuestion(i)" class="answer-button" [ngClass]="getButtonClass(i)">{{ answer }}</button>
+  </div>
+
+  <button (click)="goToNextQuestion()" [ngStyle]="{ 'opacity': (answerSelected != -1) ? 1 : 0 }" class="next-question-button" [ngClass]="(answerSelected == -1) ? 'disabled-next-question': ''"><i class="bi bi-arrow-right-short"></i></button>
+
+</div>
+
+<div *ngIf="currentQuestionIndex == questions.length" class="summary-container">
+  <div style="display: flex; flex-direction: column; gap: 0.5em;">
+    <h2>Tu puntuación: {{ getResults().toFixed(0) }}%</h2>
+    <h3>{{ getResultsReview() }}</h3>
+  </div>
+
+  <section class="question-summary">
+    <div *ngFor="let question of questions, index as i" class="question-data">
+      <div *ngIf="questionResults[i].correct" style="color: green; font-size: 2rem;">
+        <i class="bi bi-check"></i>
+      </div>
+      <div *ngIf="!questionResults[i].correct" style="color: red; font-size: 2rem;">
+        <i class="bi bi-x"></i>
+      </div>
+      <div>
+        <h4>{{ question.text }}</h4>
+        <h3>{{ question.answers[questionResults[i].answerIndex] }}</h3>
+      </div>
+    </div>
+  </section>
+
+  <button (click)="restartQuiz()" class="restart-button"><i class="bi bi-repeat"></i>Repetir</button>
+
+</div>

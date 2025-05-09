@@ -1,7 +1,7 @@
 import {Component, inject, OnInit} from '@angular/core';
-import {EditionService} from '../services/edition.service';
+import {EditionService} from '../../../services/edition.service';
 import {NgClass, NgForOf, NgStyle} from '@angular/common';
-import {Song} from '../types/song';
+import {Song} from '../../../types/song';
 import {ActivatedRoute, Router} from '@angular/router';
 import {Title} from '@angular/platform-browser';
 
