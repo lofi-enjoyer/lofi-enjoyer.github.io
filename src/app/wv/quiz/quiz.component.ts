@@ -74,13 +74,13 @@ export class QuizComponent {
 
   getResultsReview(): string {
     const results = this.getResults();
-    if (results > 90) {
+    if (results >= 90) {
       return "¡Bien hecho! ¡Eres un/a verdadero/a WorldVisioner!"
-    } else if (results > 70) {
+    } else if (results >= 70) {
       return "Buen resultado, ¡aunque puedes mejorar todavía más!"
-    } else if (results > 50) {
+    } else if (results >= 50) {
       return "No está mal, pero seguro que puedes hacerlo mejor."
-    } else if (results > 20) {
+    } else if (results >= 20) {
       return "Todavía te queda un largo camino por recorrer."
     } else {
       return "¿Seguro que has visto WorldVision?"

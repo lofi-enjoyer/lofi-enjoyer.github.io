@@ -97,6 +97,8 @@
   text-wrap: balance;
   padding: 1rem;
   gap: 2rem;
+  overflow-y: scroll;
+  width: 100%;
 }
 
 .question-summary {
@@ -104,11 +106,14 @@
   flex-direction: column;
   justify-content: center;
   gap: 0.75rem;
+  width: fit-content;
 }
 
 .question-data {
   display: flex;
   gap: 0.5rem;
+  padding: 0.5rem;
+  padding-top: 0;
   padding-bottom: 0.75rem;
   border-bottom: 1px solid #cccccc;
 }
