@@ -48,9 +48,11 @@ export class QuizComponent {
     if (this.answerSelected != -1)
       return;
 
+    const correct = this.currentQuestion.correctAnswers.includes(answerIndex);
+
     this.answerSelected = answerIndex;
     this.questionResults[this.currentQuestionIndex] = {
-      correct: this.currentQuestion.correctAnswers.includes(answerIndex),
+      correct: correct,
       answerIndex: answerIndex
     };
   }

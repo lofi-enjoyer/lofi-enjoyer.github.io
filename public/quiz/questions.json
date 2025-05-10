@@ -11,7 +11,7 @@
   },
   {
     "text": "¿Qué logro ostenta la canción 'Mako Methlha' (Irak 2024)?",
-    "answers": [ "Vídeo con menos reproducciones de su continente", "Nombre de artista más largo", "Videoclip de mayor duración", "Única candidatura del país que ha pasado de la primera fase" ],
+    "answers": [ "Vídeo con menos reproducciones de su continente", "Nombre de artista más largo", "Videoclip de mayor duración", "Única candidatura del país que no ha pasado de la primera fase" ],
     "correctAnswers": [ 1 ]
   },
   {
@@ -32,7 +32,7 @@
   },
   {
     "text": "¿Cuál de los siguientes artistas no ha participado en solitario?",
-    "answers": [ "Abel Pinto", "Dionisis Shinas", "Luis Alfonso", "Federico Baroni" ],
+    "answers": [ "Abel Pintos", "Dionisis Shinas", "Luis Alfonso", "Federico Baroni" ],
     "correctAnswers": [ 0 ]
   },
   {
@@ -43,6 +43,157 @@
   {
     "text": "¿Cuál de los siguientes grupos ha participado representando a un país que no es Corea del Sur?",
     "answers": [ "TWICE", "NMIXX", "Blackpink", "Kiss Of Life" ],
+    "correctAnswers": [ 0 ]
+  },
+  {
+    "text": "¿De qué color es el traje de Mohammed Ramadán en el videoclip de 'Tanteet'?",
+    "answers": [ "Rojo", "Negro", "Azul", "Morado" ],
+    "correctAnswers": [ 0 ]
+  },
+  {
+    "text": "¿Qué país ha conseguido el mejor resultado en Oceanía?",
+    "answers": [ "Islas Marshall", "Australia", "Nueva Zelanda", "Samoa" ],
+    "correctAnswers": [ 0 ]
+  },
+  {
+    "text": "¿En qué videoclip de la edición 2024 no aparece ningún barco?",
+    "answers": [ "Guinea Ecuatorial", "San Marino", "Colombia", "Uruguay" ],
+    "correctAnswers": [ 0 ]
+  },
+  {
+    "text": "¿Qué país no ha llegado nunca a la final?",
+    "answers": [ "Japón", "Estados Unidos", "Reino Unido", "España" ],
+    "correctAnswers": [ 0 ]
+  },
+  {
+    "text": "¿Qué cantante de la edición 2025 no es rubia?",
+    "answers": [ "Cleopatra Stratan", "Jelena Rozga", "Andia", "Kallitechnis" ],
+    "correctAnswers": [ 0 ]
+  },
+  {
+    "text": "¿Qué artista representó a Estados Unidos en la edición de 2024?",
+    "answers": [ "Skippa da flippa", "Taylor Swift", "Imagine Dragons", "Drake" ],
+    "correctAnswers": [ 0 ]
+  },
+  {
+    "text": "¿Qué aparece en el inicio del videoclip de Luqman Podolski 'Ring Ring' en la edición 2023?",
+    "answers": [ "Un lago", "Una palmera", "Una playa", "Un balón de fútbol" ],
+    "correctAnswers": [ 0 ]
+  },
+  {
+    "text": "¿Qué artista representó a Perú en la edición 2024 con la canción 'Inténtalo tú'?",
+    "answers": [ "Corazón Serrano", "Widinson", "Sebastian Yatra", "La Nueva Escuela" ],
+    "correctAnswers": [ 0 ]
+  },
+  {
+    "text": "¿Qué país no participó en la edición 2024?",
+    "answers": [ "Costa Rica", "Fiji", "Luxemburgo", "Kosovo" ],
+    "correctAnswers": [ 0 ]
+  },
+  {
+    "text": "¿Qué país nunca ha sido representado por una mujer?",
+    "answers": [ "Colombia", "Emiratos Árabes Unidos", "Samoa", "Uganda" ],
+    "correctAnswers": [ 0 ]
+  },
+  {
+    "text": "¿Qué canción tiene videoclip?",
+    "answers": [ "Tcha (Malawi, 2024)", "(Líbano, 2024)", "(Suriname, 2023)", "(Bélgica, 2023)" ],
+    "correctAnswers": [ 0 ]
+  },
+  {
+    "text": "¿Cuál de los siguientes países no ha llevado una canción titulada 'Deja Vu'?",
+    "answers": [ "Colombia", "Chipre", "Israel", "Myanmar" ],
+    "correctAnswers": [ 0 ]
+  },
+  {
+    "text": "¿Cuál es el único país que ha llevado dos canciones diferentes con el mismo título?",
+    "answers": [ "Camerún", "Emiratos Árabes Unidos", "Samoa", "Uganda" ],
+    "correctAnswers": [ 0 ]
+  },
+  {
+    "text": "¿Qué país tiene el récord de peor resultado de la historia?",
+    "answers": [ "Groenlandia", "Tahití", "Islandia", "San Marino" ],
+    "correctAnswers": [ 0 ]
+  },
+  {
+    "text": "¿Qué país tiene el récord de peor resultado de la historia?",
+    "answers": [ "Groenlandia", "Tahití", "Islandia", "San Marino" ],
+    "correctAnswers": [ 0 ]
+  },
+  {
+    "text": "¿Qué país no ha aparecido en el título de una canción?",
+    "answers": [ "Togo", "Japón", "Burkina Faso", "Seychelles" ],
+    "correctAnswers": [ 0 ]
+  },
+  {
+    "text": "¿Cuál es el único país europeo que ha estado en todas las finales?",
+    "answers": [ "Rumanía", "Francia", "Reino Unido", "Suecia" ],
+    "correctAnswers": [ 0 ]
+  },
+  {
+    "text": "¿Qué país debutará en la edición 2026?",
+    "answers": [ "Andorra", "Sáhara Occidental", "Corea del Norte", "Islas Feroe" ],
+    "correctAnswers": [ 0 ]
+  },
+  {
+    "text": "¿El videoclip de cuál de estas canciones de la edición 2024 no transcurre en una playa?",
+    "answers": [ "Samoa", "Mozambique", "Angola", "Letonia" ],
+    "correctAnswers": [ 0 ]
+  },
+  {
+    "text": "¿Qué videoclip fue grabado en el Parque Nacional de El Teide, en 2024?",
+    "answers": [ "Eslovenia", "República Checa", "Hungría", "Austria" ],
+    "correctAnswers": [ 0 ]
+  },
+  {
+    "text": "¿Cuál fue el primer videoclip reproducido de la historia del festival, en 2023?",
+    "answers": [ "Don Diyenem (Turquía)", "(Turkmenistán)", "(Japón)", "(Singapur)" ],
+    "correctAnswers": [ 0 ]
+  },
+  {
+    "text": "¿Qué país no ha presentado un videoclip grabado en un hospital?",
+    "answers": [ "Uruguay", "Filipinas", "Mozambique", "Chile" ],
+    "correctAnswers": [ 0 ]
+  },
+  {
+    "text": "¿Al videoclip de la canción de qué país corresponde la imagen?",
+    "answers": [ "Pingle (Noruega, 2025)", "Ne Racunaj na Mene (Serbia, 2025)", "(Finlandia, 2023)", "(Azerbaiyán, 2023)" ],
+    "correctAnswers": [ 0 ],
+    "image": "pingle.jpeg"
+  },
+  {
+    "text": "¿Qué futbolista no ha sido nombrado en una canción del festival?",
+    "answers": [ "Neymar Jr.", "Ronaldo Nazario", "Kylian Mbappé", "Edmond Tapsoba" ],
+    "correctAnswers": [ 0 ]
+  },
+  {
+    "text": "¿Qué país no logró pasar de ronda por una diferencia de 200 reproducciones?",
+    "answers": [ "Jamaica", "Rwanda", "Granada", "Ghana" ],
+    "correctAnswers": [ 0 ]
+  },
+  {
+    "text": "¿En qué ciudad se celebró la segunda semifinal de la edición 2024, celebrada en Corea del Sur?",
+    "answers": [ "Daejeon", "Daegu", "Busán", "Incheon" ],
+    "correctAnswers": [ 0 ]
+  },
+  {
+    "text": "¿Qué canción no se pudo agregar a las listas de reproducción en YouTube por, supuestamente, ser contenido infantil?",
+    "answers": [ "YOLO (Liberia, 2024)", "Reino Unido", "Puerto Rico", "Suiza" ],
+    "correctAnswers": [ 0 ]
+  },
+  {
+    "text": "¿El videoclip de qué canción termina sin muertos?",
+    "answers": [ "(Túnez, 2023)", "(Finlandia, 2023)", "(Filipinas, 2025)", "(Bosnia-Herzegovina, 2025)" ],
+    "correctAnswers": [ 0 ]
+  },
+  {
+    "text": "¿Cuál de los artistas participantes del festival actuó en los Juegos Olímpicos de 2024?",
+    "answers": [ "Vannda", "Taylor Swift", "Sam Smith", "Imagine Dragons" ],
+    "correctAnswers": [ 0 ]
+  },
+  {
+    "text": "¿Qué país es el único de Sudamérica que nunca ha pasado de la primera ronda?",
+    "answers": [ "Todos han pasado alguna vez", "Ecuador", "Bolivia", "Uruguay" ],
     "correctAnswers": [ 0 ]
   }
 ]
