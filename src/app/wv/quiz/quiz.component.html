@@ -18,7 +18,7 @@
     <button *ngFor="let answer of currentQuestion?.answers, index as i" (click)="answerCurrentQuestion(i)" class="answer-button" [ngClass]="getButtonClass(i)">{{ answer }}</button>
   </div>
 
-  <button (click)="goToNextQuestion()" [ngStyle]="{ 'opacity': (answerSelected != -1) ? 1 : 0 }" class="next-question-button" [ngClass]="(answerSelected == -1) ? 'disabled-next-question': ''"><i class="bi bi-arrow-right-short"></i></button>
+  <button (click)="goToNextQuestion()" *ngIf="answerSelected != -1" class="next-question-button" [ngClass]="(answerSelected == -1) ? 'disabled-next-question': ''"><i class="bi bi-arrow-right-short"></i></button>
 
 </div>
 
