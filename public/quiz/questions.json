@@ -97,7 +97,7 @@
   },
   {
     "text": "¿Qué canción tiene videoclip?",
-    "answers": [ "Tcha (Malawi, 2024)", "(Líbano, 2024)", "(Suriname, 2023)", "(Bélgica, 2023)" ],
+    "answers": [ "Tcha (Malawi, 2024)", "Jamala (Líbano, 2024)", "Situation (Suriname, 2023)", "Indelebile (Bélgica, 2023)" ],
     "correctAnswers": [ 0 ]
   },
   {
@@ -108,11 +108,6 @@
   {
     "text": "¿Cuál es el único país que ha llevado dos canciones diferentes con el mismo título?",
     "answers": [ "Camerún", "Emiratos Árabes Unidos", "Samoa", "Uganda" ],
-    "correctAnswers": [ 0 ]
-  },
-  {
-    "text": "¿Qué país tiene el récord de peor resultado de la historia?",
-    "answers": [ "Groenlandia", "Tahití", "Islandia", "San Marino" ],
     "correctAnswers": [ 0 ]
   },
   {
@@ -136,7 +131,7 @@
     "correctAnswers": [ 0 ]
   },
   {
-    "text": "¿El videoclip de cuál de estas canciones de la edición 2024 no transcurre en una playa?",
+    "text": "¿El videoclip de cuál de estas países de la edición 2024 no transcurre en una playa?",
     "answers": [ "Samoa", "Mozambique", "Angola", "Letonia" ],
     "correctAnswers": [ 0 ]
   },
@@ -147,7 +142,7 @@
   },
   {
     "text": "¿Cuál fue el primer videoclip reproducido de la historia del festival, en 2023?",
-    "answers": [ "Don Diyenem (Turquía)", "(Turkmenistán)", "(Japón)", "(Singapur)" ],
+    "answers": [ "Don Diyenem (Turquía)", "Owadan Yalnysym (Turkmenistán)", "It wasn't me (Japón)", "Tricky Situation (Singapur)" ],
     "correctAnswers": [ 0 ]
   },
   {
@@ -157,7 +152,7 @@
   },
   {
     "text": "¿Al videoclip de la canción de qué país corresponde la imagen?",
-    "answers": [ "Pingle (Noruega, 2025)", "Ne Racunaj na Mene (Serbia, 2025)", "(Finlandia, 2023)", "(Azerbaiyán, 2023)" ],
+    "answers": [ "Pingle (Noruega, 2025)", "Ne Racunaj na Mene (Serbia, 2025)", "Drive (Finlandia, 2023)", "Ruh (Azerbaiyán, 2023)" ],
     "correctAnswers": [ 0 ],
     "image": "pingle.jpeg"
   },
@@ -178,12 +173,12 @@
   },
   {
     "text": "¿Qué canción no se pudo agregar a las listas de reproducción en YouTube por, supuestamente, ser contenido infantil?",
-    "answers": [ "YOLO (Liberia, 2024)", "Reino Unido", "Puerto Rico", "Suiza" ],
+    "answers": [ "YOLO (Liberia, 2024)", "Green & Gold (Reino Unido, 2025)", "444 (Puerto Rico, 2025)", "CV (Suiza, 2024)" ],
     "correctAnswers": [ 0 ]
   },
   {
     "text": "¿El videoclip de qué canción termina sin muertos?",
-    "answers": [ "(Túnez, 2023)", "(Finlandia, 2023)", "(Filipinas, 2025)", "(Bosnia-Herzegovina, 2025)" ],
+    "answers": [ "Ghareeb Alay (Túnez, 2023)", "Drive (Finlandia, 2023)", "sining (Filipinas, 2025)", "Japan (Bosnia-Herzegovina, 2025)" ],
     "correctAnswers": [ 0 ]
   },
   {
@@ -194,6 +189,11 @@
   {
     "text": "¿Qué país es el único de Sudamérica que nunca ha pasado de la primera ronda?",
     "answers": [ "Todos han pasado alguna vez", "Ecuador", "Bolivia", "Uruguay" ],
+    "correctAnswers": [ 0 ]
+  },
+  {
+    "text": "En la edición 2025, ¿durante el videoclip de qué país se escucha la expresión 'La madre que te parió'?",
+    "answers": [ "Armenia", "Guinea Bissau", "Costa Rica", "Botswana" ],
     "correctAnswers": [ 0 ]
   }
 ]

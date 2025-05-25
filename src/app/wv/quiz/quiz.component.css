@@ -183,11 +183,15 @@
 
 .correct-marker {
   background-color: #25ef25;
-  animation: bounce 0.5s ease-out;
+  animation: bounce 0.25s ease-out;
 }
 
 .incorrect-marker {
   background-color: #f32222;
+}
+
+.current-marker {
+  transform: scale(1.75);
 }
 
 @media (min-width: 768px) {
@@ -212,14 +216,14 @@
 
 @keyframes bounce {
   0% {
-    transform: scale(1);
+    transform: scale(1.75);
   }
 
   50% {
-    transform: scale(2);
+    transform: scale(2.5);
   }
 
   100% {
-    transform: scale(1);
+    transform: scale(1.75);
   }
 }

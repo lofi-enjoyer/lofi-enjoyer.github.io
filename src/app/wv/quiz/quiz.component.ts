@@ -89,6 +89,23 @@ export class QuizComponent {
     }
   }
 
+  getQuestionMarkClasses(result: QuestionResult, currentIndex: number): string[] {
+    const classes: string[] = [];
+    if (currentIndex == this.currentQuestionIndex) {
+      classes.push("current-marker");
+    }
+    if (result == undefined) {
+      classes.push("unanswered");
+    } else {
+      if (result.correct) {
+        classes.push("correct-marker");
+      } else {
+        classes.push("incorrect-marker");
+      }
+    }
+    return classes;
+  }
+
   isThereNextQuestion() {
     return this.currentQuestionIndex < this.questions.length - 1;
   }

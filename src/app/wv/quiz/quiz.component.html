@@ -8,8 +8,8 @@
   </div>
   <img class="quiz-image" [src]="'/quiz/' + currentQuestion.image" *ngIf="currentQuestion.image">
   <div style="display: flex; flex-direction: column; align-items: center; width: 100%; gap: 0.5em">
-    <div style="display: flex; align-items: center; justify-content: space-evenly; width: 80%; flex-wrap: wrap; gap: 0.25em;">
-      <div *ngFor="let result of questionResults" class="question-mark" [class]="(result == undefined) ? 'unanswered' : (result.correct) ? 'correct-marker': 'incorrect-marker'">
+    <div style="display: flex; align-items: center; justify-content: space-evenly; width: 80%; flex-wrap: wrap; gap: 0.5em;">
+      <div *ngFor="let result of questionResults, index as i" class="question-mark" [class]="getQuestionMarkClasses(result, i)">
 
       </div>
     </div>
