@@ -11,8 +11,8 @@
   },
   {
     "text": "¿Qué logro ostenta la canción 'Mako Methlha' (Irak 2024)?",
-    "answers": [ "Vídeo con menos reproducciones de su continente", "Nombre de artista más largo", "Videoclip de mayor duración", "Única candidatura del país que no ha pasado de la primera fase" ],
-    "correctAnswers": [ 1 ]
+    "answers": [ "Nombre de artista más largo", "Vídeo con menos reproducciones de su continente", "Videoclip de mayor duración", "Única candidatura del país que no ha pasado de la primera fase" ],
+    "correctAnswers": [ 0 ]
   },
   {
     "text": "¿Cuál de estos artistas no ha participado en varias ediciones?",
@@ -38,7 +38,7 @@
   {
     "text": "¿Qué artista representó a Guatemala en la edición 2025?",
     "answers": [ "Malacates Trébol Shop", "Yailin la Mas Viral", "Xunddy ft. Los Verduleros", "La Nueva Escuela" ],
-    "correctAnswers": [ 3 ]
+    "correctAnswers": [ 0 ]
   },
   {
     "text": "¿Cuál de los siguientes grupos ha participado representando a un país que no es Corea del Sur?",
