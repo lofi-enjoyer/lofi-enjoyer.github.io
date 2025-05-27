@@ -2,7 +2,7 @@
   <input type="file" id="upload" hidden #upload (change)="onInputChange()">
   <button (click)="loadFile()">Cargar datos</button>
   <button (click)="save()">Guardar</button>
-  <button onclick="downloadFile()">Descargar</button>
+  <button (click)="downloadFile()">Descargar</button>
 </div>
 
 <div class="edition-settings">

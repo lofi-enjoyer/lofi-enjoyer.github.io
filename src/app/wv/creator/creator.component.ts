@@ -25,6 +25,9 @@ export class CreatorComponent implements OnInit {
     this.http.get<Country[]>("/countries.json").subscribe({
       next: value => {
         this.countries = value;
+        this.countries.forEach((country: Country) => {
+          this.countriesMap.set(country.name, country);
+        })
         setTimeout(() => {
           if (window.localStorage.getItem("data")) {
             // @ts-ignore
@@ -80,6 +83,7 @@ export class CreatorComponent implements OnInit {
         return;
       }
 
+      console.log(this.countriesMap.get(countryName)?.flag)
       fileData.push({
         "country": countryName,
         "flag": this.countriesMap.get(countryName)?.flag,
@@ -102,6 +106,17 @@ export class CreatorComponent implements OnInit {
 
   save() {
     window.localStorage.setItem("data", JSON.stringify(this.getData()));
+  }
+
+  downloadFile() {
+    const blob = new Blob([JSON.stringify(this.getData())], { type: "text/plain" });
+    const a = document.createElement("a");
+    a.download = "updatedCountries.json";
+    a.href = URL.createObjectURL(blob);
+    a.click();
+    setTimeout(() => {
+      URL.revokeObjectURL(a.download);
+    }, 1000);
   }
 
   onInputChange() {
