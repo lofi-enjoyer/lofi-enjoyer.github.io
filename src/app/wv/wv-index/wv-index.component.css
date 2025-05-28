@@ -50,10 +50,6 @@ a {
   flex-shrink: 0;
 }
 
-.song-holder:hover, .song-holder:active {
-  animation: bounce-sm 0.25s ease;
-}
-
 .song-bg {
   position: absolute;
   top: 0;
@@ -91,6 +87,11 @@ a {
   border-radius: 1em;
   color: rgb(66, 66, 66);
   text-decoration: none;
+  backdrop-filter: blur(10px);
+  transition: backdrop-filter 100ms;
+}
+
+.song-container:hover {
   backdrop-filter: blur(5px);
 }
 
