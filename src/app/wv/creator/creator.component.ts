@@ -2,6 +2,7 @@ import {AfterViewInit, Component, ElementRef, OnInit, viewChild, ViewChild} from
 import {NgForOf, NgStyle} from '@angular/common';
 import {Country} from '../../../types/country';
 import {HttpClient} from '@angular/common/http';
+import {Song} from '../../../types/song';
 
 @Component({
   selector: 'app-creator',
@@ -40,6 +41,10 @@ export class CreatorComponent implements OnInit {
               document.querySelector(`#${element.country.replaceAll(" ", "-")}-youtube`).value = element.links.youtube;
               // @ts-ignore
               document.querySelector(`#${element.country.replaceAll(" ", "-")}-spotify`).value = element.links.spotify;
+              if (element.result) {
+                // @ts-ignore
+                document.querySelector(`#${element.country.replaceAll(" ", "-")}-result`).value = element.result;
+              }
             });
           }
         }, 50);
@@ -78,6 +83,8 @@ export class CreatorComponent implements OnInit {
       const songYoutube = countryElement.querySelector(`#${countryId}-youtube`).value;
       // @ts-ignore
       const songSpotify = countryElement.querySelector(`#${countryId}-spotify`).value;
+      // @ts-ignore
+      const songResult = countryElement.querySelector(`#${countryId}-result`).value;
 
       if (!songName) {
         return;
@@ -93,7 +100,8 @@ export class CreatorComponent implements OnInit {
           "youtube": songYoutube,
           "spotify": songSpotify
         },
-        "colors": this.countriesMap.get(countryName)?.colors
+        "colors": this.countriesMap.get(countryName)?.colors,
+        "result": songResult
       });
     });
 
@@ -128,8 +136,7 @@ export class CreatorComponent implements OnInit {
         element.value = "";
       });
       // @ts-ignore
-      const jsonResult = JSON.parse(reader.result);
-      // @ts-ignore
+      const jsonResult: Song[] = JSON.parse(reader.result);
       jsonResult.forEach(element => {
         // @ts-ignore
         document.querySelector(`#${element.country.replaceAll(" ", "-")}-title`).value = element.title;
@@ -139,6 +146,10 @@ export class CreatorComponent implements OnInit {
         document.querySelector(`#${element.country.replaceAll(" ", "-")}-youtube`).value = element.links.youtube;
         // @ts-ignore
         document.querySelector(`#${element.country.replaceAll(" ", "-")}-spotify`).value = element.links.spotify;
+        if (element.result) {
+          // @ts-ignore
+          document.querySelector(`#${element.country.replaceAll(" ", "-")}-result`).value = element.result;
+        }
       });
 
       window.localStorage.setItem("data", JSON.stringify(jsonResult));

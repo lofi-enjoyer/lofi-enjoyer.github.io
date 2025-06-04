@@ -4,7 +4,8 @@ export type Song = {
   title: string,
   author: string,
   links: SongLinks,
-  colors: string[]
+  colors: string[],
+  result: string
 }
 
 export type SongLinks = {
