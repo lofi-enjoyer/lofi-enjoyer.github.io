@@ -2,6 +2,7 @@
   max-height: 100%;
   display: flex;
   flex-direction: column;
+  view-transition-name: wv-edition;
 }
 
 .loading {

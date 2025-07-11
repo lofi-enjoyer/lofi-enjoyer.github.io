@@ -40,3 +40,47 @@ app-wv-index, app-wv-edition {
 app-creator {
   padding: calc(1em - 3px);
 }
+
+/* Custom transition */
+@keyframes slide-out {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0);
+  }
+}
+@keyframes slide-in {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+::view-transition-new(wv-edition) {
+  animation-timing-function: ease-in-out;
+  animation-duration: 250ms;
+  animation-name: slide-in;
+  animation-delay: 0s;
+}
+
+::view-transition-old(wv-edition) {
+  animation-timing-function: ease-in-out;
+  animation-duration: 250ms;
+  animation-name: slide-out;
+  animation-delay: 0s;
+}
+
+::view-transition-new(wv-index) {
+  animation-timing-function: ease-in-out;
+  animation-duration: 250ms;
+  animation-delay: 0s;
+}
+
+::view-transition-old(wv-index) {
+  animation-timing-function: ease-in-out;
+  animation-duration: 250ms;
+  animation-delay: 0s;
+}
