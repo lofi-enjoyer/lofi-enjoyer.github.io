@@ -4,40 +4,62 @@
 <div class="controls">
   <input #searchBar type="text" placeholder="Buscar..." (input)="filterSongs()">
   <button class="spoilers-btn" (click)="toggleSpoilers()">
-    <i *ngIf="spoilers" class="bi bi-eye-slash-fill"></i>
-    <i *ngIf="!spoilers" class="bi bi-eye-fill"></i>
+    @if (spoilers) {
+      <i class="bi bi-eye-slash-fill"></i>
+    } @else {
+      <i class="bi bi-eye-fill"></i>
+    }
   </button>
 </div>
 <div class="country-wrapper">
   <section id="country-container" class="country-container">
-    <div *ngFor="let song of filteredSongs" class="song-holder">
-      <div class="song-bg" [ngStyle]="{'background': 'conic-gradient(' + generateGradient(song.colors) + ')'}">
+    @for (song of filteredSongs; track $index) {
+      <div class="song-holder">
+        <div class="song-bg" [ngStyle]="{'background': 'conic-gradient(' + generateGradient(song.colors) + ')'}">
 
-      </div>
-      <div class="song-container">
-        <div class="song-flag">
-          {{ song.flag }}
         </div>
-        <div class="song-header">
-          <h2>{{ song.title }}</h2>
-          <h3>{{ song.author }}</h3>
-          <div class="song-country">
-            <p>{{ song.country }}</p>
-            <p>{{ song.flag }} {{ song.country }}</p>
-            <div class="song-result" *ngIf="spoilers && song.result" [ngStyle]="{'background': getResultColor(song.result)}">
-              {{ song.result }}
+        <div class="song-container">
+
+          <div class="song-header">
+            <h2 style="display: flex; gap: 0.5rem; align-items: center;">
+              <div class="song-flag">
+              {{ song.flag }}
+              </div>
+              {{ song.title }}
+            </h2>
+            <h3>{{ song.author }}</h3>
+            <div class="song-country">
+              <p>{{ song.country }}</p>
+              <p>{{ song.flag }} {{ song.country }}</p>
+              @if (spoilers && song.result) {
+                <div class="song-result" [ngStyle]="{'background': getResultColor(song.result)}">
+                  {{ song.result }}
+                </div>
+              }
             </div>
           </div>
-        </div>
-        <div class="song-links">
-          <a [href]="song.links.spotify" target="_blank" class="spotify-link" [ngClass]="song.links.spotify ? 'active-link' : 'disabled-link' ">
-            <i class="bi-spotify"></i>
-          </a>
-          <a [href]="song.links.youtube" target="_blank" class="youtube-link" [ngClass]="song.links.youtube ? 'active-link' : 'disabled-link' ">
-            <i class="bi-youtube"></i>
-          </a>
+          <div class="song-links">
+            @if (song.links.spotify) {
+              <a [href]="song.links.spotify" target="_blank" class="spotify-link">
+                <i class="bi-spotify"></i>
+              </a>
+            } @else {
+              <a class="spotify-link disabled-link">
+                <i class="bi-spotify"></i>
+              </a>
+            }
+            @if (song.links.youtube) {
+              <a [href]="song.links.youtube" target="_blank" class="youtube-link">
+                <i class="bi-youtube"></i>
+              </a>
+            } @else {
+              <a class="spotify-link disabled-link">
+                <i class="bi-youtube"></i>
+              </a>
+            }
+          </div>
         </div>
       </div>
-    </div>
+    }
   </section>
 </div>

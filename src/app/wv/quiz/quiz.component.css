@@ -4,6 +4,7 @@
   display: flex;
   overflow: hidden;
   view-transition-name: wv-edition;
+  color: #e1e1e1;
 }
 
 .quiz-container {

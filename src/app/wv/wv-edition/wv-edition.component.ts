@@ -9,10 +9,7 @@ import {FormsModule} from '@angular/forms';
 @Component({
   selector: 'app-wv-edition',
   imports: [
-    NgForOf,
     NgStyle,
-    NgClass,
-    NgIf,
     FormsModule
   ],
   templateUrl: './wv-edition.component.html',
@@ -22,7 +19,7 @@ export class WvEditionComponent implements OnInit, AfterViewInit {
 
   @ViewChild('searchBar', { static: false }) searchBar: ElementRef | undefined;
 
-  songs: Song[] | null = null;
+  songs: Song[] = [];
   filteredSongs: Song[] = [];
   spoilers: boolean = false;
   private activatedRoute = inject(ActivatedRoute);
@@ -55,7 +52,7 @@ export class WvEditionComponent implements OnInit, AfterViewInit {
   filterSongs() {
     if (this.songs) {
       const searchQuery = (this.searchBar?.nativeElement.value as string).toLowerCase();
-      this.filteredSongs = this.songs?.filter(song => song.title.toLowerCase().includes(searchQuery) || song.author.toLowerCase().includes(searchQuery) || song.country.toLowerCase().includes(searchQuery));
+      this.filteredSongs = this.songs.filter(song => song.title.toLowerCase().includes(searchQuery) || song.author.toLowerCase().includes(searchQuery) || song.country.toLowerCase().includes(searchQuery));
     }
   }
 

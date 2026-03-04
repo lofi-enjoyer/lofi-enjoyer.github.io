@@ -40,11 +40,12 @@
 }
 
 .country-container {
-  display: flex;
+  display: grid;
   flex-direction: column;
   gap: 0.5em;
   overflow-x: visible;
   overflow-y: clip;
+  grid-template-columns: repeat(3, auto);
 }
 
 .song-holder {
@@ -53,6 +54,11 @@
   border-radius: 1em;
   padding: 3px;
   flex-shrink: 0;
+  border: 1px solid #3a3a3a;
+
+  &:hover {
+    border-color: transparent;
+  }
 }
 
 .song-holder:hover, .song-holder:active {
@@ -86,13 +92,16 @@
   gap: 0.5em;
   padding: 0.5em;
   border-radius: 1em;
-  color: rgb(66, 66, 66);
   text-decoration: none;
-  background-color: white;
+  background-color: #222222;
+  color: #dadada;
+  height: 100%;
 }
 
 .song-flag {
-  font-size: 4rem;
+  display: flex;
+  gap: 0.5rem;
+  font-size: 2rem;
 }
 
 .song-header {
@@ -136,24 +145,32 @@
   border-radius: 50%;
   color: #18b71a;
   font-size: 2em;
+  transition: transform 0.125s ease-out;
+
+  &:hover {
+    transform: scale(1.2);
+  }
 }
 
 .youtube-link {
   border-radius: 50%;
   color: #c4302b;
   font-size: 2em;
-}
-
-.active-link {
   transition: transform 0.125s ease-out;
-}
 
-.active-link:hover {
-  transform: scale(1.2);
+  &:hover {
+    transform: scale(1.2);
+  }
 }
 
 .disabled-link {
   color: gray;
+  cursor: not-allowed;
+  transition: none;
+
+  &:hover {
+    transform: none;
+  }
 }
 
 .song-result {
@@ -164,6 +181,9 @@
   justify-content: center;
   border-radius: 5em;
   font-size: 0.75rem;
+  text-align: center;
+  text-wrap: balance;
+  color: #272727;
 }
 
 .controls {
@@ -175,10 +195,13 @@
 
   input {
     border: none;
-    padding: 0.75em;
+    padding: 0.5em;
     border-radius: 0.25em;
     flex-grow: 1;
     font-size: 0.75rem;
+    background-color: #3c3c3c;
+    color: #dadada;
+    height: 2rem;
   }
 
   .spoilers-btn {
@@ -191,8 +214,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    aspect-ratio: 1;
+    flex-shrink: 0;
     cursor: pointer;
+    width: 2rem;
+    height: 2rem;
   }
 
   .spoilers-btn:hover {
@@ -204,7 +229,19 @@
   }
 }
 
+@media screen and (max-width: 1400px) {
+
+  .country-container {
+    grid-template-columns: repeat(2, auto);
+  }
+
+}
+
 @media screen and (max-width: 768px) {
+
+  .country-container {
+    grid-template-columns: repeat(1, auto);
+  }
 
   .song-container {
     flex-direction: column;

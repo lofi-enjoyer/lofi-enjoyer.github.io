@@ -108,6 +108,15 @@
         ]
     },
     {
+      "name": "Bahamas",
+      "flag": "\uD83C\uDDE7\uD83C\uDDF8",
+      "colors": [
+        "#5DC1B9",
+        "#FFFF00",
+        "#000000"
+      ]
+    },
+    {
         "name": "Bangladesh",
         "flag": "🇧🇩",
         "colors": [
@@ -141,6 +150,14 @@
             "#AAAA00",
             "#FF0000"
         ]
+    },
+    {
+      "name": "Bielorrusia",
+      "flag": "\uD83C\uDDE7\uD83C\uDDFE",
+      "colors": [
+        "#009739",
+        "#D22730"
+      ]
     },
     {
         "name": "Bolivia",
