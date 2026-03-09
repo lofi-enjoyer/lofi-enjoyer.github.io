@@ -108,6 +108,15 @@
         ]
     },
     {
+      "name": "Bahamas",
+      "flag": "\uD83C\uDDE7\uD83C\uDDF8",
+      "colors": [
+        "#5DC1B9",
+        "#FFFF00",
+        "#000000"
+      ]
+    },
+    {
         "name": "Bangladesh",
         "flag": "🇧🇩",
         "colors": [
@@ -141,6 +150,14 @@
             "#AAAA00",
             "#FF0000"
         ]
+    },
+    {
+      "name": "Bielorrusia",
+      "flag": "\uD83C\uDDE7\uD83C\uDDFE",
+      "colors": [
+        "#009739",
+        "#D22730"
+      ]
     },
     {
         "name": "Bolivia",
@@ -364,6 +381,15 @@
             "#CC0D0D",
             "#FFFFFF"
         ]
+    },
+    {
+      "name": "Curazao",
+      "flag": "\uD83C\uDDE8\uD83C\uDDFC",
+      "colors": [
+        "#002B7F",
+        "#F9E27F",
+        "#FFFFFF"
+      ]
     },
     {
         "name": "Dinamarca",
@@ -887,6 +913,15 @@
         ]
     },
     {
+      "name": "Macao",
+      "flag": "\uD83C\uDDF2\uD83C\uDDF4",
+      "colors": [
+        "#067662",
+        "#FFFFFF",
+        "#FFDF1E"
+      ]
+    },
+    {
         "name": "Macedonia",
         "flag": "🇲🇰",
         "colors": [
@@ -1086,6 +1121,16 @@
         ]
     },
     {
+      "name": "Nueva Caledonia",
+      "flag": "\uD83C\uDDF3\uD83C\uDDE8",
+      "colors": [
+        "#0000FF",
+        "#FF0000",
+        "#00FF00",
+        "#FFFF00"
+      ]
+    },
+    {
         "name": "Nueva Zelanda",
         "flag": "🇳🇿",
         "colors": [
@@ -1276,12 +1321,32 @@
         ]
     },
     {
+      "name": "San Cristóbal y Nieves",
+      "flag": "\uD83C\uDDF0\uD83C\uDDF3",
+      "colors": [
+        "#FFFF00",
+        "#FF0000",
+        "#FFFFFF",
+        "#00FF00",
+        "#000000"
+      ]
+    },
+    {
         "name": "San Marino",
         "flag": "🇸🇲",
         "colors": [
             "#FFFFFF",
             "#52B1E7"
         ]
+    },
+    {
+      "name": "San Vicente y las Granadinas",
+      "flag": "\uD83C\uDDFB\uD83C\uDDE8",
+      "colors": [
+        "#0000FF",
+        "#FFFF00",
+        "#00FF00"
+      ]
     },
     {
         "name": "Santa Lucía",
@@ -1378,6 +1443,17 @@
             "#000000",
             "#FFFFFF"
         ]
+    },
+    {
+      "name": "Sudán del Sur",
+      "flag": "\uD83C\uDDF8\uD83C\uDDF8",
+      "colors": [
+        "#000000",
+        "#0000FF",
+        "#FFFF00",
+        "#FF0000",
+        "#00FF00"
+      ]
     },
     {
         "name": "Suecia",
@@ -1576,6 +1652,15 @@
             "#FF0000",
             "#FFFF00"
         ]
+    },
+    {
+      "name": "Yemen",
+      "flag": "\uD83C\uDDFE\uD83C\uDDEA",
+      "colors": [
+        "#FF0000",
+        "#FFFFFF",
+        "#000000"
+      ]
     },
     {
         "name": "Zambia",

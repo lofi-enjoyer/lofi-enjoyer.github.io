@@ -55,6 +55,7 @@
   padding: 3px;
   flex-shrink: 0;
   border: 1px solid #3a3a3a;
+  transition: transform 0.5s ease-out;
 
   &:hover {
     border-color: transparent;
@@ -62,7 +63,8 @@
 }
 
 .song-holder:hover, .song-holder:active {
-  animation: bounce-sm 0.25s ease;
+  transform: scale(1.01);
+  transition: transform 0.15s ease-out;
 }
 
 .song-bg {
@@ -91,7 +93,7 @@
   align-items: center;
   gap: 0.5em;
   padding: 0.5em;
-  border-radius: 1em;
+  border-radius: calc(1em - 3px);
   text-decoration: none;
   background-color: #222222;
   color: #dadada;
