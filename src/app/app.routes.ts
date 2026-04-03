@@ -7,12 +7,12 @@ import {IndexComponent} from './index/index/index.component';
 import {QuizComponent} from './wv/quiz/quiz.component';
 
 export const routes: Routes = [
-  { path: 'wv', component: WvSectionComponent, title: 'WorldVisión', children:
+  { path: 'wv', loadComponent: () => import('./wv/wv-section/wv-section.component').then(it => it.WvSectionComponent), title: 'WorldVisión', children:
       [
-        { path: '', component: WvIndexComponent },
-        { path: 'quiz', component: QuizComponent, title: 'Quiz' },
-        { path: 'creator', component: CreatorComponent, title: 'Editor' },
-        { path: ':year', component: WvEditionComponent }
+        { path: '', loadComponent: () => import('./wv/wv-index/wv-index.component').then(it => it.WvIndexComponent) },
+        { path: 'quiz', title: 'Quiz', loadComponent: () => import('./wv/quiz/quiz.component').then(it => it.QuizComponent) },
+        { path: 'creator',title: 'Editor', loadComponent: () => import('./wv/creator/creator.component').then(it => it.CreatorComponent) },
+        { path: ':year', loadComponent: () => import('./wv/wv-edition/wv-edition.component').then(it => it.WvEditionComponent) }
       ]
   },
   { path: '', component: IndexComponent, title: 'lofi-enjoyer' }

@@ -84,6 +84,7 @@
 
 .song-holder:hover > .song-container {
   box-shadow: 0 0 0.5rem -2px rgba(0, 0, 0, 1) inset;
+  text-shadow: 0 0 8px #222;
 }
 
 .song-container {
@@ -94,7 +95,7 @@
   padding: 0.75rem;
   border-radius: calc(1em - 3px);
   text-decoration: none;
-  background-color: #222222dd;
+  background-color: #2228;
   color: #dadada;
   height: 100%;
   backdrop-filter: blur(50px);
