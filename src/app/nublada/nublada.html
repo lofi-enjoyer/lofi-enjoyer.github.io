@@ -1,0 +1,75 @@
+<main>
+  <div class="landing">
+    <div class="header">
+      <img class="logo" src="/nublada/nublada_fondo.webp" alt="Logotipo de NubladaMC">
+      <h1>NubladaMC</h1>
+    </div>
+    <h2 class="server-ip">
+      <p class="ip">prueba.nublada.com</p>
+      <p class="copy-on-hover"><i class="bi bi-copy"></i> Copiar</p>
+    </h2>
+    <div class="server-links">
+      <a class="discord" href="https://discord.gg/mbfa4g9">
+        <i class="bi bi-discord"></i>
+      </a>
+      <a class="tiktok" href="">
+        <i class="bi bi-tiktok"></i>
+        <i class="bi bi-tiktok"></i>
+        <i class="bi bi-tiktok"></i>
+      </a>
+    </div>
+    <span class="quote">'{{ quote() }}'</span>
+  </div>
+
+  <div class="summary">
+    <h2>¿Qué es Nublada?</h2>
+    <p>Somos una comunidad y servidor de Minecraft hispanohablante, creada en 2020.</p>
+    <p>Intentamos crear experiencias diferentes sin mods, utilizando únicamente modificaciones del servidor <i>(plugins)</i> y las herramientas que ofrece el juego base.</p>
+  </div>
+
+  <div class="summary">
+    <h2>Historia</h2>
+    <div class="timeline">
+      <div class="event">
+        <span>2020 <span class="line"></span></span>
+        <div>
+          <h3>Fundación y primer servidor</h3>
+          <p>Nublada aparece como un servidor Towny semi-roleplay. Con un mapa pequeño, ciudades e historia pre-establecidad y modificaciones únicas, agrupa una comunidad pequeña pero involucrada.</p>
+        </div>
+      </div>
+      <div class="event">
+        <span>2020 <span class="line"></span></span>
+        <div>
+          <h3>Segundo servidor</h3>
+          <p>Más orientado al roleplay abre, a finales de 2020, NubladaRP. Este servidor se caracterizaba principalmente por su mundo en modo Aventura, un sistema de magia propio y una progresión diferente a la del juego base.</p>
+        </div>
+      </div>
+      <div class="event">
+        <span>2021 <span class="line"></span></span>
+        <div>
+          <h3>En construcción...</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="staff">
+    <h2>Nuestro Staff</h2>
+    <div class="staff-container">
+      @for (member of staff; track $index) {
+        <div class="staff-member">
+          <img src="/nublada/{{ member.picture }}.webp" alt="">
+          <div class="staff-member-info">
+            <h3>{{ member.name }}</h3>
+            <p>{{ member.role }}</p>
+          </div>
+          <div class="staff-quote">
+            {{ member.quote }}
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</main>
+
+<router-outlet />

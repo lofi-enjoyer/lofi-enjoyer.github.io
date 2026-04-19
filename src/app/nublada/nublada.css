@@ -1,0 +1,374 @@
+:host {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  overflow: hidden;
+  color: #eee;
+
+  background: url("/nublada/motetro.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+@property --bg-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+main {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  padding: 1rem;
+  max-height: 100%;
+  gap: 5rem;
+  backdrop-filter: blur(10px) brightness(0.4);
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+.landing {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 75%;
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .server-ip {
+    border-radius: 0.5rem;
+    font-size: 1.75rem;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid transparent;
+    background: linear-gradient(#222c,#222c) padding-box,conic-gradient(from var(--bg-angle),yellow,orange,orangered,yellow) border-box;
+    animation: spin 2s linear infinite;
+
+    .ip {
+      padding: 0.75rem 1.25rem;
+      backdrop-filter: blur(25px);
+      border-radius: calc(0.5rem + 3px);
+      font-size: 1.75rem;
+    }
+
+    .copy-on-hover {
+      align-items: center;
+      display: none;
+      justify-content: center;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      backdrop-filter: blur(15px) brightness(0.25);
+      z-index: 1;
+      cursor: pointer;
+      gap: 0.5rem;
+    }
+
+    &:hover {
+      background: linear-gradient(#222c,#222c) padding-box,conic-gradient(from var(--bg-angle),yellow,orange,orangered,yellow) border-box;
+
+      .copy-on-hover {
+        display: inline-flex;
+      }
+
+    }
+
+  }
+
+  .quote {
+    font-size: 1.125rem;
+    font-weight: bold;
+    font-style: italic;
+    opacity: 0.5;
+    padding: 0.5rem;
+    text-align: center;
+    text-wrap: balance;
+  }
+
+  .server-links {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1.5rem;
+
+    a {
+      color: #bbb;
+      transition: transform 0.1s;
+    }
+
+    .tiktok {
+      * {
+        position: absolute;
+      }
+      :nth-child(2) {
+        display: none;
+        color: #1ff1f0;
+        transform: translate(-1px, -1px);
+      }
+      :nth-child(3) {
+        display: none;
+        color: #f92c55;
+        transform: translate(1px, 1px);
+      }
+    }
+
+    a:hover {
+
+      transform: scale(1.1);
+
+      &.discord {
+        color: #5865f2;
+      }
+
+      &.tiktok {
+        color: #070707;
+        :nth-child(1) {
+          z-index: 1;
+        }
+
+        :nth-child(2), :nth-child(3) {
+          display: block;
+        }
+      }
+
+    }
+  }
+
+}
+
+.logo {
+  width: 8rem;
+  border-radius: 50%;
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+
+  > p {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+}
+
+.staff {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+
+  .staff-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .staff-member {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+
+    .staff-member-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.25rem;
+
+      p {
+        color: #ccc;
+      }
+    }
+
+    img {
+      width: 4rem;
+      border-radius: 50%;
+    }
+
+    .staff-quote {
+      display: none;
+      user-select: none;
+      position: absolute;
+      background: #333e;
+      top: 0.5rem;
+      transform: translateX(calc(50% + 1.5rem)) translateY(-100%);
+      border-radius: 0.75rem 0.75rem 0.75rem 0.125rem;
+      padding: 0.5rem 0.75rem;
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+  }
+
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  .event {
+    display: flex;
+    gap: 0.5rem;
+    width: 100%;
+
+    > div {
+      padding-left: 0.25rem;
+      padding-bottom: 0.5rem;
+    }
+
+    > span {
+      position: relative;
+      padding-right: 0.75rem;
+    }
+
+    .line {
+      content: '';
+      position: absolute;
+      display: block;
+      width: 4px;
+      height: 100%;
+      background: #fff;
+      right: -2px;
+      top: 0;
+
+      &::before {
+        content: '';
+        top: 0.5lh;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background: #fff;
+        border-radius: 50%;
+      }
+    }
+  }
+
+  .event:nth-child(1) {
+
+    .line {
+
+      height: calc(100% - 0.5lh);
+      top: 0.5lh;
+
+      &::before {
+        top: 0;
+        transform: translateY(-50%) translateX(-50%);
+      }
+    }
+  }
+
+  .event:last-child {
+
+    .line {
+
+      height: 0.5lh;
+      top: 0;
+
+      &::before {
+        top: 0.5lh;
+        transform: translateY(-50%) translateX(-50%);
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+
+  .summary {
+    max-width: 80%;
+  }
+
+  .staff {
+    gap: 1rem;
+
+    .staff-member {
+      align-items: center;
+      flex-direction: row;
+
+      .staff-member-info {
+        gap: 0.5rem;
+      }
+
+      .staff-quote {
+        display: block;
+        top: 0.5rem;
+        left: 3.5rem;
+        transform: translateY(-100%);
+        max-width: 25rem;
+        width: max-content;
+        z-index: 1;
+      }
+
+      &:hover .staff-quote {
+        display: block;
+        opacity: 1;
+      }
+
+    }
+  }
+
+  .staff .staff-container {
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    width: auto;
+  }
+
+  .timeline {
+    align-items: center;
+
+    .event > div {
+      padding-bottom: 1rem;
+    }
+  }
+
+}
+
+@media (min-width: 1000px) {
+
+  .staff .staff-container {
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-3px);
+  }
+  50% {
+    transform: translateY(3px);
+  }
+  100% {
+    transform: translateY(-3px);
+  }
+}
+
+@keyframes spin {
+  to {
+    --bg-angle: 360deg;
+  }
+}
