@@ -1,4 +1,4 @@
-import {AfterViewInit, Component, ElementRef, inject, OnInit, ViewChild} from '@angular/core';
+import {AfterViewInit, Component, ElementRef, inject, OnInit, signal, ViewChild, WritableSignal} from '@angular/core';
 import {EditionService} from '../../../services/edition.service';
 import {NgClass, NgForOf, NgIf, NgStyle} from '@angular/common';
 import {Song} from '../../../types/song';
@@ -23,6 +23,7 @@ export class WvEditionComponent implements OnInit, AfterViewInit {
   filteredSongs: Song[] = [];
   spoilers: boolean = false;
   private activatedRoute = inject(ActivatedRoute);
+  selectedSong: WritableSignal<Song | undefined> = signal(undefined);
 
   constructor(
     private editionService: EditionService,
@@ -73,12 +74,16 @@ export class WvEditionComponent implements OnInit, AfterViewInit {
 
   getResultColor(result: string) {
     if (result.toLowerCase().includes('semifinal')) {
-      return '#82e3bb';
+      return '#33755a';
     } else if (result.toLowerCase().includes('final')) {
-      return '#94f16f';
+      return '#308f08';
     } else {
-      return '#bed6e4';
+      return '#5d7381';
     }
+  }
+
+  selectSong(song: Song) {
+    this.selectedSong.set(song);
   }
 
 }

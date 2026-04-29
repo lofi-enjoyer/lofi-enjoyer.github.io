@@ -1,7 +1,6 @@
 import {Routes} from '@angular/router';
 import {IndexComponent} from './index/index/index.component';
 import {TestingGuard} from './testing-guard';
-import {Nublada} from './nublada/nublada';
 
 export const routes: Routes = [
   { path: 'wv', loadComponent: () => import('./wv/wv-section/wv-section.component').then(it => it.WvSectionComponent), title: 'WorldVisión', children:

@@ -1,5 +1,5 @@
 :host {
-  background: #222222;
+  background: #fff;
 }
 
 header {
@@ -26,15 +26,16 @@ header {
 
 .flag-colors {
   width: 100%;
-  height: 1px;
+  height: 4px;
   background: linear-gradient(to right, #00843D 0%, #00843D 25%, #FFFFFF 25%, #FFFFFF 50%, #000000 50%, #000000 75%, #C8102E 75%, #C8102E 100%);
+  border-bottom: 1px solid black;
 }
 
 main {
   position: relative;
   display: flex;
   flex-direction: column;
-  overflow-y: scroll;
+  overflow-y: hidden;
   flex-grow: 1;
 }
 

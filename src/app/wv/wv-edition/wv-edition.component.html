@@ -14,8 +14,8 @@
 <div class="country-wrapper">
   <section id="country-container" class="country-container">
     @for (song of filteredSongs; track $index) {
-      <div class="song-holder">
-        <div class="song-bg" [ngStyle]="{'background': 'conic-gradient(' + generateGradient(song.colors) + ')'}">
+      <div class="song-holder" (click)="selectSong(song)">
+        <div class="song-bg" [ngStyle]="{'background': 'conic-gradient(from var(--bg-angle), ' + generateGradient(song.colors) + ')'}">
 
         </div>
         <div class="song-container">
@@ -66,3 +66,39 @@
     }
   </section>
 </div>
+@if (selectedSong() != undefined) {
+  <div class="dialog-container">
+    <div class="dialog-bg" (click)="selectSong(undefined!)"></div>
+    <div class="dialog">
+      <div class="song-bg song-bg-slow" style="display: block" [ngStyle]="{'background': 'conic-gradient(from var(--bg-angle), ' + generateGradient(selectedSong()!.colors) + ')'}">
+      </div>
+      <div class="dialog-data">
+        <div class="dialog-header">
+          <h2>{{ selectedSong()?.title }}</h2>
+          <h3>{{ selectedSong()?.author }}</h3>
+          <p style="margin-top: 0.5rem">{{ selectedSong()?.flag }} {{ selectedSong()?.country }}</p>
+        </div>
+        <div class="dialog-links">
+          @if (selectedSong()!.links.spotify) {
+            <a [href]="selectedSong()!.links.spotify" target="_blank" class="link spotify">
+              <i class="bi-spotify"></i> <span>Escuchar en Spotify</span>
+            </a>
+          } @else {
+            <a class="link disabled">
+              <i class="bi-spotify"></i> <span>Escuchar en Spotify</span>
+            </a>
+          }
+          @if (selectedSong()!.links.youtube) {
+            <a [href]="selectedSong()!.links.youtube" target="_blank" class="link youtube">
+              <i class="bi-youtube"></i> <span>Ver en YouTube</span>
+            </a>
+          } @else {
+            <a class="link disabled">
+              <i class="bi-youtube"></i> <span>Ver en YouTube</span>
+            </a>
+          }
+        </div>
+      </div>
+    </div>
+  </div>
+}
